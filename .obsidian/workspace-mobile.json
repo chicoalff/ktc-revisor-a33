@@ -36,14 +36,12 @@
             "id": "d961ea186be10349",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "json",
               "state": {
-                "file": "sync.php.md",
-                "mode": "source",
-                "source": false
+                "file": "workflow/diagnostic/ktc-flow-diagnostico.json"
               },
               "icon": "lucide-file",
-              "title": "sync.php"
+              "title": "ktc-flow-diagnostico"
             }
           }
         ],
@@ -255,9 +253,10 @@
   },
   "active": "d961ea186be10349",
   "lastOpenFiles": [
+    "workflow/diagnostic/ktc-schema-blocos.json",
+    "workflow/diagnostic/ktc-flow-diagnostico2.json",
     "workflow/diagnostic/ktc-flow-diagnostico.json",
     "sync.php.md",
-    "workflow/diagnostic/ktc-flow-diagnostico2.json",
     "ktc-flow-diagnostic.md.md",
     "workflow/diagnostic/ktc-bloco-2-instrucoes.json",
     "workflow/diagnostic/ktc-bloco-1-instrucoes.json",
