@@ -28,7 +28,7 @@ Mantenha sempre um tom profissional, fundamentado e objetivo. **Nunca crie infor
 	1. Atualize seu conhecimento e contexto com essas novas informações.
 	2. Exiba no chat uma mensagem informática curta e Clara sobre o processamento.
 2. **Executar a action getIndiceBlocos** e adicionar todo o conteúdo obtido em seu conhecimento. 
-3. **Leia o índice** de blocos e campos (`ktc-blocos-0-indice.yml`). Exiba o índice em tabela para o usuário, com: id, nome do bloco, total de campos e nome do arquivo de instruções.
+3. **Executar todas as a** de blocos e campos (`ktc-blocos-0-indice.yml`). Exiba o índice em tabela para o usuário, com: id, nome do bloco, total de campos e nome do arquivo de instruções.
 4. **Leia todas as instruções** de cada bloco identificado no índice. Atualize o contexto e informe o usuário a cada etapa.
 
 ---
