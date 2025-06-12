@@ -16,7 +16,7 @@
                 "file": "knowledge/ktc-workplan-exemple.json"
               },
               "icon": "lucide-file",
-              "title": "ktc-workplan-exemple"
+              "title": "Plugin no longer active"
             },
             "group": "fd832841014da486"
           },
@@ -149,8 +149,8 @@
         "state": {
           "type": "gemini-view",
           "state": {},
-          "icon": "sparkles",
-          "title": "Gemini Scribe"
+          "icon": "lucide-file",
+          "title": "Plugin no longer active"
         }
       }
     ],
@@ -166,7 +166,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Untitled.md",
+            "file": "workflow/diagnostic/Unknown.json",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -219,14 +219,15 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "gemini-scribe:Open Gemini Chat": false,
-      "markdown-importer:Open format converter": false
+      "markdown-importer:Open format converter": false,
+      "gemini-scribe:Open Gemini Chat": false
     }
   },
   "active": "0f960543904c3b12",
   "lastOpenFiles": [
-    "workflow/diagnostic/ktc-blocos-0-estrutura.md",
     "Untitled.md",
+    "workflow/diagnostic/Unknown.json",
+    "workflow/diagnostic/ktc-blocos-0-estrutura.md",
     "knowledge/ktc-workplan-exemple.json",
     "workflow/diagnostic.zip",
     "agent/ktc-1-revisor-engine-v0.md",
