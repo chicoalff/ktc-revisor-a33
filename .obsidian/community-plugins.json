@@ -1,4 +1,5 @@
 [
   "gemini-scribe",
-  "data-files-editor"
+  "data-files-editor",
+  "prettier-format"
 ]
