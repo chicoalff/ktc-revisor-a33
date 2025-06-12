@@ -171,3 +171,5 @@ Por favor, escolha uma das opções abaixo para continuar:
             - Execute o fluxo de revisão de acordo com as instruções do sistema presentes no arquivo ktc-1-revisor-engine.yml.
         - Sempre siga as instruções detalhadas do arquivo principal de engine e priorize arquivos atualizados ou explicitamente referenciados.
 ```
+
+https://files.oaiusercontent.com/file-X2ykSEnLKkiEJfPBzVXUeQ?se=2025-06-12T22%3A51%3A20Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D299%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dktc-copilot-unificado.json&sig=bsR%2BrZkuyjbU6%2Br8P5/bLvGnfM0zOlqiCJRIU/O5fk4%3D
