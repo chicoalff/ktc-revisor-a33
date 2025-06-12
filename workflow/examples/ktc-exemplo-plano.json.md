@@ -1,4 +1,3 @@
-```json
 {
   "Chamada_Publica": "01/2020 - Tecnova II",
   "Programa": "Programa de Subvenção Econômica para Apoio à Inovação e o Desenvolvimento Tecnológico em Empresas Nacionais Sediadas no Estado do Paraná",
