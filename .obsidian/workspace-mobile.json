@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "agent/ktc-0-revisor-main.md",
+                "file": "agent/ktc-1-revisor-engine-v0.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ktc-0-revisor-main"
+              "title": "ktc-1-revisor-engine-v0"
             }
           }
         ],
@@ -147,7 +147,7 @@
         }
       }
     ],
-    "currentTab": 4
+    "currentTab": 0
   },
   "right": {
     "id": "53b719668e360e49",
@@ -222,6 +222,7 @@
   },
   "active": "679eb77186330146",
   "lastOpenFiles": [
+    "agent/ktc-0-revisor-main.md",
     "Untitled 1.md",
     "workflow/diagnostic/ktc-blocos-0-estrutura.md",
     "ktc-flow-diagnostic.md.md",
