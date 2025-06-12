@@ -142,10 +142,10 @@
             "state": {
               "type": "json",
               "state": {
-                "file": "agent/ktc-revisao.json.json"
+                "file": "agent/ktc-revisao.json"
               },
               "icon": "lucide-file",
-              "title": "ktc-revisao.json"
+              "title": "ktc-revisao"
             }
           },
           {
@@ -293,7 +293,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "agent/ktc-revisao.json.json",
+            "file": "agent/ktc-revisao.json",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -354,10 +354,10 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "93e089f31eae2212",
+  "active": "7ecb48fd689b2c46",
   "lastOpenFiles": [
     "agent/Ktc agent.json",
-    "agent/ktc-revisao.json.json",
+    "agent/ktc-revisao.json",
     "workflow/diagnostic/ktc-score.json",
     "workflow/diagnostic/ktc-blocos-0-indice.json",
     "Unknown.json",
