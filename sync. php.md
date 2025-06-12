@@ -8,8 +8,7 @@ https://github.com/chicoalff/ktc-revisor-a33/tree/main/workflow%2Fdiagnostic
 
 https://github.com/chicoalff/ktc-revisor-a33/tree/main/knowledge
 
-Salve todos os arquivos no servidor dentro da pasta 
-/
-public_html
-/
-revisor
+Salve todos os arquivos no servidor dentro da mesma pasta 
+/public_html/revisor/
+
+Caso algum arquivo já existe, crie uma pasta chamada old, renomeie o arquivo original incluído um timestamp no final e mova ele para a pasta old, então salve o novo arquivo 
