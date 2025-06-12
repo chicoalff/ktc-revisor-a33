@@ -38,12 +38,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sync. php.md",
+                "file": "sync.php.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sync. php"
+              "title": "sync.php"
             }
           }
         ],
@@ -256,7 +256,7 @@
   "active": "d961ea186be10349",
   "lastOpenFiles": [
     "workflow/diagnostic/ktc-flow-diagnostico.json",
-    "sync. php.md",
+    "sync.php.md",
     "workflow/diagnostic/ktc-flow-diagnostico2.json",
     "ktc-flow-diagnostic.md.md",
     "workflow/diagnostic/ktc-bloco-2-instrucoes.json",
