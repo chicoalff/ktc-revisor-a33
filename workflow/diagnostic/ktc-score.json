@@ -1,0 +1,58 @@
+{
+  "procedimento": "Avaliação automática de todos os campos definidos no plano de trabalho com base na estrutura do arquivo 'ktc-blocos-0-indice.json' e nas instruções detalhadas obtidas via chamadas às ações getBlock[n].",
+  "etapas_avaliacao": [
+    "Percorrer todos os blocos listados em 'blocos[].nome_do_bloco'.",
+    "Para cada bloco, identificar o valor de 'arquivo_de_instrucoes'.",
+    "Executar a chamada da função correspondente (ex: getBlock1, getBlock2, ...).",
+    "A partir do resultado da função, recuperar:",
+    "- Lista de campos do bloco ('campos[]')",
+    "- Instruções específicas por campo: critérios de avaliação, pesos, template, exemplos, estilo, e faixa de tamanho",
+    "Para cada campo:",
+    "- Avaliar os critérios definidos em 'criterios_campo[]', aplicando a escala de aderência de 0 a 1",
+    "- Avaliar a conformidade com:",
+    "  - 'template': estrutura textual sugerida",
+    "  - 'exemplos': proximidade com os exemplos fornecidos",
+    "  - 'caracteristicas.estilo_e_linguagem': linguagem formal, tom neutro",
+    "  - 'caracteristicas.tamanho_campo': respeitar mínimo e máximo de caracteres",
+    "Calcular:",
+    "- 'score_aderencia': média ponderada dos critérios",
+    "- 'score_conformidade': média simples dos quatro fatores de conformidade",
+    "- 'score_final': (score_aderencia × 0.7) + (score_conformidade × 0.3)"
+  ],
+  "escala_score_criterio": {
+    "1.00": "Aderência total",
+    "0.75": "Aderência alta",
+    "0.50": "Aderência parcial",
+    "0.25": "Aderência fraca",
+    "0.00": "Aderência nula"
+  },
+  "classificacao_score_final": {
+    "0.90-1.00": "Excelente",
+    "0.75-0.89": "Muito bom",
+    "0.50-0.74": "Regular",
+    "0.25-0.49": "Ruim",
+    "0.00-0.24": "Inadequado"
+  },
+  "relatorio_campos": "Para cada campo analisado, gerar no relatório: nome do campo, nome do bloco, score de aderência, score de conformidade, score final, classificação e sugestão de melhoria caso o score final seja inferior a 1.00.",
+  "score_medio_por_bloco": "Calcular a média dos scores finais de todos os campos em cada bloco.",
+  "score_global": "Calcular a média global de todos os scores finais de todos os blocos.",
+  "recomendacoes_gerais": [
+    "Identificar blocos com score médio inferior a 0.75 e destacar para revisão.",
+    "Sinalizar campos com classificação Regular, Ruim ou Inadequado para reescrita prioritária.",
+    "Recomendar padronização com base nos templates e exemplos oficiais fornecidos nos arquivos de instrução.",
+    "Sugerir ajustes de linguagem formal e respeito à faixa de caracteres onde aplicável."
+  ],
+  "execucao_funcional": {
+    "fonte_base": "ktc-blocos-0-indice.json",
+    "acoes_por_bloco": [
+      "getBlock1",
+      "getBlock2",
+      "getBlock3",
+      "getBlock4",
+      "getBlock5",
+      "getBlock6",
+      "getBlock7"
+    ]
+  },
+  "instrucoes_exportacao": "O relatório gerado pode ser exportado como PDF a partir de um documento Markdown formatado, utilizando ferramentas como Pandoc, HackMD, Typora, Obsidian ou extensões de exportação de Markdown para PDF no VSCode."
+}

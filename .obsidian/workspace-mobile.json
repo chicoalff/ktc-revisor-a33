@@ -118,10 +118,10 @@
             "state": {
               "type": "json",
               "state": {
-                "file": "workflow/diagnostic/Unknown.json"
+                "file": "workflow/diagnostic/ktc-score.json"
               },
               "icon": "lucide-file",
-              "title": "Unknown"
+              "title": "ktc-score"
             }
           },
           {
@@ -269,7 +269,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "workflow/diagnostic/Unknown.json",
+            "file": "workflow/diagnostic/ktc-score.json",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -330,10 +330,10 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "acd9c183479e7b4c",
+  "active": "7ecb48fd689b2c46",
   "lastOpenFiles": [
     "workflow/diagnostic/ktc-blocos-0-indice.json",
-    "workflow/diagnostic/Unknown.json",
+    "workflow/diagnostic/ktc-score.json",
     "Unknown.json",
     "ktc fluxo 2.md",
     "agent/ktc-inicial.md",
