@@ -63,7 +63,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "ce995e2002633ffa",
@@ -183,7 +183,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "ktca33.md",
+            "file": "ktc-flow-diagnostic.md.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -244,7 +244,7 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "d08fdd39abaaea92",
+  "active": "287fb2544dd0eb43",
   "lastOpenFiles": [
     "ktca33.md",
     "workflow/diagnostic/ktc-blocos-0-indice.json",
