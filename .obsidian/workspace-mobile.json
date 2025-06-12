@@ -246,8 +246,9 @@
   },
   "active": "d08fdd39abaaea92",
   "lastOpenFiles": [
-    "ktc-flow-diagnostic.md.md",
+    "gemini-scribe/workflow_diagnostic_ktc-flow-diagnostico.json.md",
     "ktca33.md",
+    "ktc-flow-diagnostic.md.md",
     "workflow/diagnostic/ktc-blocos-0-indice.json",
     "workflow/diagnostic/ktc-config-schema.json",
     "agent/ktc-inicial.md",
@@ -265,7 +266,6 @@
     "workflow/diagnostic/ktc-bloco-1-instrucoes.json",
     "Untitled.md",
     "workflow/diagnostic.zip",
-    "gemini-scribe/workflow_diagnostic_ktc-flow-diagnostico.json.md",
     "workflow/examples/ktc-exemplo-plano.md",
     "workflow/examples/Unknown.txt",
     "readme.md",
