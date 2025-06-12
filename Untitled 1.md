@@ -1,4 +1,3 @@
-Segue o trecho de instruções pronto para ser incluído no seu prompt, já considerando **todas as diretrizes de inicialização** analisadas do arquivo, **mais a instrução formal do padrão de exibição de menus** conforme solicitado:
 
 ---
 
