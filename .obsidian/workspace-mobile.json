@@ -63,7 +63,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "ce995e2002633ffa",
@@ -183,7 +183,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "ktc-flow-diagnostic.md.md",
+            "file": "ktca33.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -244,15 +244,15 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "287fb2544dd0eb43",
+  "active": "d08fdd39abaaea92",
   "lastOpenFiles": [
+    "ktc-flow-diagnostic.md.md",
     "ktca33.md",
     "workflow/diagnostic/ktc-blocos-0-indice.json",
     "workflow/diagnostic/ktc-config-schema.json",
     "agent/ktc-inicial.md",
     "Untitled 3.md",
     "workflow/diagnostic/ktc-blocos-0-estrutura.md",
-    "ktc-flow-diagnostic.md.md",
     "Untitled 2.md",
     "agent/ktc-1-revisor-engine-v0.md",
     "Untitled 1.md",
