@@ -39,10 +39,12 @@
             "id": "8694731dc418583d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "json",
+              "state": {
+                "file": "workflow/diagnostic/ktc-config-schema.json"
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "ktc-config-schema"
             }
           }
         ],
