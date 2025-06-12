@@ -113,6 +113,18 @@
             }
           },
           {
+            "id": "acd9c183479e7b4c",
+            "type": "leaf",
+            "state": {
+              "type": "json",
+              "state": {
+                "file": "workflow/diagnostic/Unknown.json"
+              },
+              "icon": "lucide-file",
+              "title": "Unknown"
+            }
+          },
+          {
             "id": "0f960543904c3b12",
             "type": "leaf",
             "state": {
@@ -137,7 +149,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       },
       {
         "id": "ce995e2002633ffa",
@@ -257,7 +269,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "workflow/diagnostic/ktc-blocos-0-indice.json",
+            "file": "workflow/diagnostic/Unknown.json",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -318,8 +330,10 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "7ecb48fd689b2c46",
+  "active": "acd9c183479e7b4c",
   "lastOpenFiles": [
+    "workflow/diagnostic/ktc-blocos-0-indice.json",
+    "workflow/diagnostic/Unknown.json",
     "Unknown.json",
     "ktc fluxo 2.md",
     "agent/ktc-inicial.md",
@@ -328,7 +342,6 @@
     "Untitled 4.md",
     "workflow/ktc principal.md",
     "agent/ktc-1-revisor-engine-v0.md",
-    "workflow/diagnostic/ktc-blocos-0-indice.json",
     "ktca33.md",
     "gemini-scribe/workflow_diagnostic_ktc-flow-diagnostico.json.md",
     "workflow/diagnostic/ktc-config-schema.json",
