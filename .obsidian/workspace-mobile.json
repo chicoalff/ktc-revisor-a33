@@ -34,9 +34,19 @@
               "icon": "lucide-file",
               "title": "readme"
             }
+          },
+          {
+            "id": "0defb9791d23e2e7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -179,7 +189,7 @@
       "gemini-scribe:Open Gemini Chat": false
     }
   },
-  "active": "7d8f842117dcd169",
+  "active": "0defb9791d23e2e7",
   "lastOpenFiles": [
     "readme.md"
   ]
