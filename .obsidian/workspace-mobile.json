@@ -47,12 +47,14 @@
             "id": "cec000d00091dc0f",
             "type": "leaf",
             "state": {
-              "type": "json",
+              "type": "markdown",
               "state": {
-                "file": "workflow/examples/Unknown.json"
+                "file": "workflow/examples/ktc-exemplo-plano.json.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Unknown"
+              "title": "ktc-exemplo-plano.json"
             }
           }
         ],
@@ -202,8 +204,8 @@
   },
   "active": "cec000d00091dc0f",
   "lastOpenFiles": [
-    "workflow/examples/Unknown.txt",
     "workflow/examples/Unknown.json",
+    "workflow/examples/Unknown.txt",
     "workflow/examples/ktc-exemplo-plano.json.md",
     "readme.md",
     "workflow/diagnostic/ktc-flow-diagnostico.json",
