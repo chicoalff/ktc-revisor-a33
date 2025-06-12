@@ -39,17 +39,12 @@
             "id": "0defb9791d23e2e7",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "json",
               "state": {
-                "file": "workflow/Untitled.canvas",
-                "viewState": {
-                  "x": 0.5,
-                  "y": 213,
-                  "zoom": 0
-                }
+                "file": "workflow/diagnostic/ktc-flow-diagnostico.json"
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "ktc-flow-diagnostico"
             }
           }
         ],
@@ -128,7 +123,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 4
   },
   "right": {
     "id": "53b719668e360e49",
@@ -199,6 +194,7 @@
   },
   "active": "0defb9791d23e2e7",
   "lastOpenFiles": [
+    "workflow/diagnostic/ktc-blocos-0-indice.json",
     "workflow/Untitled.canvas",
     "readme.md"
   ]
