@@ -13,10 +13,10 @@
             "state": {
               "type": "json",
               "state": {
-                "file": "workflow/diagnostic/ktc-config-schema.json"
+                "file": "workflow/diagnostic/ktc-blocos-0-indice.json"
               },
               "icon": "lucide-file",
-              "title": "ktc-config-schema"
+              "title": "ktc-blocos-0-indice"
             },
             "group": "fd832841014da486"
           },
@@ -60,10 +60,10 @@
             "state": {
               "type": "json",
               "state": {
-                "file": "workflow/diagnostic/ktc-config-schema.json"
+                "file": "workflow/diagnostic/ktc-blocos-0-indice.json"
               },
               "icon": "lucide-file",
-              "title": "ktc-config-schema"
+              "title": "ktc-blocos-0-indice"
             },
             "group": "fd832841014da486"
           }
@@ -168,7 +168,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "workflow/diagnostic/ktc-config-schema.json",
+            "file": "workflow/diagnostic/ktc-blocos-0-indice.json",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -231,9 +231,9 @@
   },
   "active": "893eae668901fdfa",
   "lastOpenFiles": [
+    "workflow/diagnostic/ktc-config-schema.json",
     "agent/ktc-inicial.md",
     "Untitled 3.md",
-    "workflow/diagnostic/ktc-config-schema.json",
     "workflow/diagnostic/ktc-blocos-0-indice.json",
     "workflow/diagnostic/ktc-blocos-0-estrutura.md",
     "ktc-flow-diagnostic.md.md",
