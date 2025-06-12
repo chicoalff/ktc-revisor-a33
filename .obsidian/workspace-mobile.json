@@ -54,12 +54,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ktca33.md",
+                "file": "ktc-flow-diagnostic.md.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ktca33"
+              "title": "ktc-flow-diagnostic.md"
             }
           }
         ],
@@ -183,7 +183,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "ktca33.md",
+            "file": "ktc-flow-diagnostic.md.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -246,8 +246,8 @@
   },
   "active": "d08fdd39abaaea92",
   "lastOpenFiles": [
-    "gemini-scribe/workflow_diagnostic_ktc-flow-diagnostico.json.md",
     "ktca33.md",
+    "gemini-scribe/workflow_diagnostic_ktc-flow-diagnostico.json.md",
     "ktc-flow-diagnostic.md.md",
     "workflow/diagnostic/ktc-blocos-0-indice.json",
     "workflow/diagnostic/ktc-config-schema.json",
