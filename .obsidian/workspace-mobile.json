@@ -39,12 +39,14 @@
             "id": "0defb9791d23e2e7",
             "type": "leaf",
             "state": {
-              "type": "json",
+              "type": "markdown",
               "state": {
-                "file": "workflow/diagnostic/ktc-flow-diagnostico.json"
+                "file": "workflow/examples/ktc-exemplo-plano.json.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "ktc-flow-diagnostico"
+              "title": "ktc-exemplo-plano.json"
             }
           }
         ],
@@ -123,7 +125,7 @@
         }
       }
     ],
-    "currentTab": 4
+    "currentTab": 0
   },
   "right": {
     "id": "53b719668e360e49",
@@ -194,6 +196,9 @@
   },
   "active": "0defb9791d23e2e7",
   "lastOpenFiles": [
+    "workflow/diagnostic/ktc-flow-diagnostico.json",
+    "workflow/examples/ktc-exemplo-plano.json.md",
+    "workflow/examples",
     "gemini-scribe/workflow_diagnostic_ktc-flow-diagnostico.json.md",
     "gemini-scribe",
     "workflow/diagnostic/ktc-blocos-0-indice.json",
