@@ -38,12 +38,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ktc-flow-diagnostic.md",
+                "file": "ktc-flow-diagnostic.md.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ktc-flow-diagnostic"
+              "title": "ktc-flow-diagnostic.md"
             }
           }
         ],
@@ -192,7 +192,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "ktc-flow-diagnostic.md",
+            "file": "ktc-flow-diagnostic.md.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -252,7 +252,7 @@
   "active": "3d73b930164c3485",
   "lastOpenFiles": [
     "workflow/diagnostic/ktc-flow-diagnostico.json",
-    "ktc-flow-diagnostic.md",
+    "ktc-flow-diagnostic.md.md",
     "workflow/diagnostic/ktc-bloco-2-instrucoes.json",
     "workflow/diagnostic/ktc-bloco-1-instrucoes.json",
     "Untitled.md",
