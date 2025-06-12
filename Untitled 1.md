@@ -29,7 +29,7 @@ Em toda apresentação de menu de opções ou fluxos para o usuário no chat, ut
 
 ### KTC REVISOR - Versão a33
 
-Descreva brevemente as opções do menu ou do fluxo em execução.
+*Descreva brevemente as opções do menu ou do fluxo em execução.*
 
 1 - OPÇÃO 1  
 2 - OPÇÃO 2  

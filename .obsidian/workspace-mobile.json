@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "agent/ktc-0-revisor-main.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 1"
+              "title": "ktc-0-revisor-main"
             }
           }
         ],
@@ -222,8 +222,8 @@
   },
   "active": "679eb77186330146",
   "lastOpenFiles": [
-    "workflow/diagnostic/ktc-blocos-0-estrutura.md",
     "Untitled 1.md",
+    "workflow/diagnostic/ktc-blocos-0-estrutura.md",
     "ktc-flow-diagnostic.md.md",
     "knowledge/ktc-workplan-exemple.json",
     "workflow/diagnostic/ktc-flow-diagnostico.json",
