@@ -10,7 +10,7 @@
   "blocos": [
     {
       "nome_do_bloco": "1 - Dados Cadastrais",
-      "arquivo_de_instrucoes": "Call the productnauta.com API with the getFlowDiagnostic getBlock1",
+      "arquivo_de_instrucoes": "Call the productnauta.com API with the getBlock1",
       "campos": [
         "empresa_proponente",
         "caixa_postal",
@@ -27,7 +27,7 @@
     },
     {
       "nome_do_bloco": "2 - Dados do Projeto",
-      "arquivo_de_instrucoes": "Call the productnauta.com API with the getFlowDiagnostic getBlock2",
+      "arquivo_de_instrucoes": "Call the productnauta.com API with the getBlock2",
       "campos": [
         "titulo_do_projeto",
         "duracao_prevista",
@@ -43,7 +43,7 @@
     },
     {
       "nome_do_bloco": "3 - Grau de Inovação e Complexidade Técnica",
-      "arquivo_de_instrucoes": "Call the productnauta.com API with the getFlowDiagnostic getBlock3",
+      "arquivo_de_instrucoes": "Call the productnauta.com API with the getBlock3",
       "campos": [
         "grau_de_inovacao",
         "complexidade_tecnologica",
@@ -52,7 +52,7 @@
     },
     {
       "nome_do_bloco": "4 - Viabilidade Mercadológica",
-      "arquivo_de_instrucoes": "Call the productnauta.com API with the getFlowDiagnostic getBlock4",
+      "arquivo_de_instrucoes": "Call the productnauta.com API with the getBlock4",
       "campos": [
         "vantagens_competitivas",
         "mercado_potencial",
@@ -64,7 +64,7 @@
     },
     {
       "nome_do_bloco": "5 - Resultados Esperados",
-      "arquivo_de_instrucoes": "Call the productnauta.com API with the getFlowDiagnostic getBlock5",
+      "arquivo_de_instrucoes": "Call the productnauta.com API with the  getBlock5",
       "campos": [
         "resultados_sociais",
         "resultados_economicos",
@@ -75,7 +75,7 @@
     },
     {
       "nome_do_bloco": "6 - Aspectos Éticos e Infraestrutura",
-      "arquivo_de_instrucoes": "Call the productnauta.com API with the getFlowDiagnostic getBlock6",
+      "arquivo_de_instrucoes": "Call the productnauta.com API with the getBlock6",
       "campos": [
         "aspectos_eticos_biosseguranca",
         "infraestrutura_disponivel"
@@ -83,7 +83,7 @@
     },
     {
       "nome_do_bloco": "7 - Despesas e Cronograma Financeiro",
-      "arquivo_de_instrucoes": "Call the productnauta.com API with the getFlowDiagnostic getBlock7",
+      "arquivo_de_instrucoes": "Call the productnauta.com API with the getBlock7",
       "campos": [
         "plano_aplicacao_financeira",
         "classificacao_das_despesas",
