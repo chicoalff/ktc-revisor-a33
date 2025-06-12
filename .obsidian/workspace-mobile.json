@@ -208,8 +208,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "893eae668901fdfa",
+  "active": "7ecb48fd689b2c46",
   "lastOpenFiles": [
+    "workflow/diagnostic.zip",
     "agent/ktc-1-revisor-engine-v0.md",
     "knowledge/ktc-workplan-exemple.json",
     "gemini-scribe/workflow_diagnostic_ktc-flow-diagnostico.json.md",
