@@ -1,0 +1,350 @@
+{
+  "metadata": {
+    "versao": "1.0",
+    "arquivo": "ktc-bloco-1-instrucoes.json",
+    "descricao_arquivo": "definições, instruções, características, critérios, exemplos e instruções que deverão ser utilizadas pelo modelo de inteligência artificial na interpretação, avaliação, identificação de erros, não conformidades e possíveis conflitos nas informações dos Campos do bloco 1 do plano de trabalho do tecnova. Também contém instruções detalhadas e exemplos de como deve ser feita a revisão, sugestão de melhorias e reescrita do conteúdo dos Campos conforme as sugestões propostas respeitando todos os critérios de cada Campo individualmente",
+    "autor": "Chico Alff",
+    "data_ultima_edicao": "",
+    "nome_do_bloco_detalhado": "1 - Dados Cadastrais"
+  },
+  "blocos": [
+    {
+      "nome_do_bloco": "1 - Dados Cadastrais",
+      "instrucoes_ia_bloco": [
+        "Para cada campo do bloco 1, siga este fluxo padrão:",
+        "1. Exiba o conteúdo integral do campo ao usuário.",
+        "2. Avalie tecnicamente se o conteúdo atende os critérios específicos do campo (formato, consistência, dados obrigatórios, etc.).",
+        "3. Se correto, siga para o próximo campo sem pedir confirmação.",
+        "4. Se encontrar erro, ausência de informação ou inconsistência, aponte os problemas, sugira melhorias/correções, mantendo sempre linguagem técnica, objetiva e alinhada ao edital.",
+        "5. Solicite esclarecimento ao usuário se necessário.",
+        "6. Pergunte ao usuário se deseja aplicar as melhorias sugeridas ou excluir o campo; só reescreva/exclua se autorizado.",
+        "7. Caso algum campo exija validação com documentos externos, indique a fonte (ex: Cartão CNPJ, DRE, site oficial).",
+        "Repita esse fluxo para todos os campos do bloco."
+      ],
+      "criterios_comuns": [
+        "Manter linguagem técnica, objetiva e alinhada ao edital em toda sugestão de ajuste.",
+        "Solicitar esclarecimento/correção ao usuário sempre que encontrar erro ou dúvida.",
+        "Não solicitar confirmação ao usuário para passar ao próximo campo quando não há erro.",
+        "Apontar e sugerir solução para qualquer divergência, erro de formato, ausência ou inconsistência."
+      ],
+      "campos": [
+        {
+          "id": "1.1",
+          "nome_do_campo": "empresa_proponente",
+          "descricao": "Nome da empresa proponente conforme CNPJ. Deve corresponder ao CNPJ informado no plano de trabalho.",
+          "criterios_campo": [
+            {
+              "criterio": "Verificar se o CNPJ extraído do documento corresponde ao nome da empresa.",
+              "score": 0.5
+            },
+            {
+              "criterio": "Confrontar o CNPJ com o plano de trabalho para consistência.",
+              "score": 0.5
+            },
+            {
+              "criterio": "Caso esteja correto, não solicite confirmação para analisar o próximo campo.",
+              "score": 0.5
+            },
+            {
+              "criterio": "Informar no chat se houver divergência entre CNPJ e nome.",
+              "score": 0.5
+            },
+            {
+              "criterio": "Solicitar esclarecimento ou correção do usuário.",
+              "score": 0.5
+            },
+            {
+              "criterio": "Quando sugerir ajustes, manter linguagem técnica e objetiva, alinhada ao edital.",
+              "score": 0.5
+            }
+          ],
+          "caracteristicas": {
+            "tipo_do_campo": "descritivo",
+            "linguagem": "formal",
+            "tom": "jurídico-administrativo",
+            "publico_alvo": "especialistas, gestores",
+            "tamanho_campo": {
+              "minimo": 19,
+              "maximo": 48
+            },
+            "elementos_de_formatacao": {
+              "tipo_do_elemento": "Texto curto",
+              "detalhes": "Nome empresarial completo, formal, sem abreviações. Escrita capitalizada. Redação objetiva. Estilo institucional."
+            }
+          },
+          "template": "Empresa: [Nome da Empresa]",
+          "exemplos": [
+            "Empresa: ABC SOLUÇÕES TECNOLÓGICAS LTDA",
+            "Empresa: INDÚSTRIA DE SOFTWARE INOVADOR S.A.",
+            "Empresa: CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA"
+          ],
+          "instrucoes_ia": []
+        },
+        {
+          "id": "1.2",
+          "nome_do_campo": "caixa_postal",
+          "descricao": "Número da caixa postal ou CEP da empresa.",
+          "criterios_campo": [
+            {
+              "criterio": "Confirmar preenchimento com número válido de CEP ou caixa postal.",
+              "score": 0.5
+            },
+            {
+              "criterio": "Caso esteja correto, não solicite confirmação para analisar o próximo campo.",
+              "score": 0.5
+            },
+            {
+              "criterio": "Caso não possua, inserir a expressão “não possui”.",
+              "score": 0.5
+            },
+            {
+              "criterio": "Quando sugerir ajustes, manter linguagem técnica e objetiva, alinhada ao edital.",
+              "score": 0.5
+            }
+          ],
+          "caracteristicas": {
+            "tipo_do_campo": "numérico ou string curta",
+            "linguagem": "técnica",
+            "tom": "direto",
+            "publico_alvo": "especialistas",
+            "tamanho_campo": {
+              "minimo": 10,
+              "maximo": 12
+            },
+            "elementos_de_formatacao": {
+              "tipo_do_elemento": "Número ou string curta",
+              "detalhes": "CEP ou CP. Linguagem técnica postal. Redação direta, sem explicações."
+            }
+          },
+          "template": "Caixa Postal: [Número do CEP ou 'não possui']",
+          "exemplos": [
+            "Caixa Postal: 12345-678",
+            "Caixa Postal: não possui",
+            "Caixa Postal: 98765-432"
+          ],
+          "instrucoes_ia": [
+            "Se não houver caixa postal, insira a expressão 'não possui'."
+          ]
+        },
+        {
+          "id": "1.3",
+          "nome_do_campo": "receita_anual",
+          "descricao": "Receita anual com base no Demonstrativo de Resultados do Exercício (DRE) de 2024.",
+          "criterios_campo": [
+            {
+              "criterio": "Verificar informação de receita anual e ano-base (2024).",
+              "score": 0.5
+            },
+            {
+              "criterio": "Caso esteja correto, não solicite confirmação para analisar o próximo campo.",
+              "score": 0.5
+            },
+            {
+              "criterio": "Solicitar ao usuário o envio do arquivo de DRE de 2024 para validação documental.",
+              "score": 0.5
+            },
+            {
+              "criterio": "Quando sugerir ajustes, manter linguagem técnica e objetiva, alinhada ao edital.",
+              "score": 0.5
+            }
+          ],
+          "caracteristicas": {
+            "tipo_do_campo": "numérico",
+            "linguagem": "formal",
+            "tom": "econômico-financeiro",
+            "publico_alvo": "especialistas, gestores",
+            "tamanho_campo": {
+              "minimo": 11,
+              "maximo": 15
+            },
+            "elementos_de_formatacao": {
+              "tipo_do_elemento": "Texto numérico",
+              "detalhes": "Pode incluir faixa, ponto decimal, 'R$'. Redação direta, cifras ou categorias."
+            }
+          },
+          "template": "Receita Anual (DRE 2024): R$ [Valor numérico com ou sem decimais]",
+          "exemplos": [
+            "Receita Anual (DRE 2024): R$ 1.250.000,00",
+            "Receita Anual (DRE 2024): R$ 500.000",
+            "Receita Anual (DRE 2024): R$ 78.000,00"
+          ],
+          "instrucoes_ia": [
+            "Se necessário, solicite ao usuário o envio do DRE de 2024 para validação documental."
+          ]
+        },
+        {
+          "id": "1.4",
+          "nome_do_campo": "natureza_juridica",
+          "descricao": "Descrição completa da natureza jurídica conforme Cartão CNPJ da Receita Federal.",
+          "criterios_campo": [
+            {
+              "criterio": "Consultar o CNPJ em https://cnpja.com/office/(cnpj da empresa sem . / ou -), exemplo: https://cnpja.com/office/55064698000109.",
+              "score": 0.5
+            },
+            {
+              "criterio": "Caso não seja possível obter na opção acima, tentar: https://solucoes.receita.fazenda.gov.br/Servicos/cnpjreva/cnpjreva_solicitacao.asp.",
+              "score": 0.5
+            },
+            {
+              "criterio": "Caso também não funcione, solicitar ao usuário o Cartão CNPJ.",
+              "score": 0.5
+            },
+            {
+              "criterio": "Validar termo exato (ex: Sociedade Limitada, Inova Simples).",
+              "score": 0.5
+            },
+            {
+              "criterio": "Inserir descrição detalhada conforme Cartão CNPJ.",
+              "score": 0.5
+            },
+            {
+              "criterio": "Opcional: solicitar envio do Cartão CNPJ original.",
+              "score": 0.5
+            },
+            {
+              "criterio": "Quando sugerir ajustes, manter linguagem técnica e objetiva, alinhada ao edital.",
+              "score": 0.5
+            }
+          ],
+          "caracteristicas": {
+            "tipo_do_campo": "descritivo",
+            "linguagem": "técnica",
+            "tom": "jurídico",
+            "publico_alvo": "especialistas",
+            "tamanho_campo": {
+              "minimo": 28,
+              "maximo": 35
+            },
+            "elementos_de_formatacao": {
+              "tipo_do_elemento": "Texto técnico curto",
+              "detalhes": "Descrição conforme Receita Federal, podendo incluir códigos. Redação padrão legal."
+            }
+          },
+          "template": "Natureza Jurídica: [Descrição completa da natureza jurídica]",
+          "exemplos": [
+            "Natureza Jurídica: Sociedade Empresária Limitada",
+            "Natureza Jurídica: Empresa Individual de Responsabilidade Limitada (de Natureza Empresária)",
+            "Natureza Jurídica: Sociedade Simples Pura"
+          ],
+          "instrucoes_ia": [
+            "Se não for possível obter nos sites oficiais, solicite ao usuário o Cartão CNPJ.",
+            "Se necessário, solicite envio do Cartão CNPJ original (opcional)."
+          ]
+        },
+        {
+          "id": "1.5",
+          "nome_do_campo": "atividade_economica_predominante",
+          "descricao": "Atividade econômica principal informada no Cartão CNPJ (CNAE).",
+          "criterios_campo": [
+            {
+              "criterio": "Consultar o CNPJ em https://cnpja.com/office/(cnpj da empresa sem . / ou -), exemplo: https://cnpja.com/office/55064698000109.",
+              "score": 0.5
+            },
+            {
+              "criterio": "Caso não seja possível obter na opção acima, tentar: https://solucoes.receita.fazenda.gov.br/Servicos/cnpjreva/cnpjreva_solicitacao.asp.",
+              "score": 0.5
+            },
+            {
+              "criterio": "Caso também não funcione, solicitar ao usuário o Cartão CNPJ.",
+              "score": 0.5
+            },
+            {
+              "criterio": "Extrair o CNAE principal do Cartão CNPJ.",
+              "score": 0.5
+            },
+            {
+              "criterio": "Confirmar formato: “(Código) – Descrição”.",
+              "score": 0.5
+            },
+            {
+              "criterio": "Solicitar ajuste para formato correto.",
+              "score": 0.5
+            },
+            {
+              "criterio": "Quando sugerir ajustes, manter linguagem técnica e objetiva, alinhada ao edital.",
+              "score": 0.5
+            }
+          ],
+          "caracteristicas": {
+            "tipo_do_campo": "texto corrido técnico",
+            "linguagem": "formal",
+            "tom": "técnico",
+            "publico_alvo": "especialistas",
+            "tamanho_campo": {
+              "minimo": 84,
+              "maximo": 176
+            },
+            "elementos_de_formatacao": {
+              "tipo_do_elemento": "Texto corrido",
+              "detalhes": "Contém código CNAE + descrição. Linguagem técnica econômica."
+            }
+          },
+          "template": "CNAE: (Código) – Descrição da Atividade",
+          "exemplos": [
+            "CNAE: 6399-2/00 – Outras atividades de prestação de serviços de informação não especificadas anteriormente",
+            "CNAE: 10.82-1/00 – Fabricação de produtos à base de café",
+            "CNAE: 6202-3/00 – Desenvolvimento e licenciamento de programas de computador customizáveis"
+          ],
+          "instrucoes_ia": [
+            "Se necessário, solicitar ajuste ao usuário para o formato correto."
+          ]
+        },
+        {
+          "id": "1.6",
+          "nome_do_campo": "coordenador_tecnico",
+          "descricao": "Nome do coordenador técnico do projeto.",
+          "criterios_campo": [
+            {
+              "criterio": "Verificar se o nome do coordenador técnico está presente.",
+              "score": 0.5
+            },
+            {
+              "criterio": "Confirmar se o coordenador técnico possui vínculo formal (sócio ou empregado CLT) e qualificação compatível com a execução do projeto, conforme edital.",
+              "score": 0.5
+            },
+            {
+              "criterio": "Caso esteja correto, não solicite confirmação para analisar o próximo campo.",
+              "score": 0.5
+            },
+            {
+              "criterio": "Solicitar esclarecimentos sobre o vínculo formal e qualificação do coordenador técnico, se necessário.",
+              "score": 0.5
+            },
+            {
+              "criterio": "Alertar sobre a impossibilidade de alteração do coordenador técnico após a criação da conta no sistema de submissão.",
+              "score": 0.5
+            },
+            {
+              "criterio": "Quando sugerir ajustes, manter linguagem técnica e objetiva, alinhada ao edital.",
+              "score": 0.5
+            }
+          ],
+          "caracteristicas": {
+            "tipo_do_campo": "descritivo",
+            "linguagem": "formal",
+            "tom": "neutro",
+            "publico_alvo": "especialistas, gestores",
+            "tamanho_campo": {
+              "minimo": null,
+              "maximo": null
+            },
+            "elementos_de_formatacao": {
+              "tipo_do_elemento": "Texto curto",
+              "detalhes": "Nome completo do coordenador. Vínculo formal (sócio ou empregado CLT) e qualificação compatível."
+            }
+          },
+          "template": "Coordenador Técnico: [Nome Completo do Coordenador]",
+          "exemplos": [
+            "Coordenador Técnico: Dr. João Pedro da Silva",
+            "Coordenador Técnico: Engª. Maria Clara Souza",
+            "Coordenador Técnico: Prof. Carlos Alberto Oliveira"
+          ],
+          "instrucoes_ia": [
+            "Solicitar esclarecimentos sobre o vínculo formal e qualificação, se necessário.",
+            "Alertar sobre a impossibilidade de alteração do coordenador técnico após a criação da conta no sistema de submissão."
+          ]
+        }
+      ]
+    }
+  ]
+}

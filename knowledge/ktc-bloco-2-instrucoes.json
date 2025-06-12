@@ -1,0 +1,343 @@
+{
+  "metadata": {
+    "versao": "1.0",
+    "arquivo": "ktc-bloco-2-instrucoes.json",
+    "descricao_arquivo": "Instruções detalhadas para preenchimento e revisão dos campos do Bloco 2 - Dados do Projeto, conforme edital Tecnova III-PR.",
+    "autor": "Chico Alff",
+    "data_ultima_edicao": "2025-06-12 11:15:00",
+    "nome_do_bloco_detalhado": "2 - Dados do Projeto"
+  },
+  "blocos": [
+    {
+      "nome_do_bloco": "2 - Dados do Projeto",
+      "instrucoes_ia_bloco": [
+        "Para cada campo do bloco 2, siga este fluxo padrão:",
+        "1. Exiba o conteúdo integral do campo ao usuário.",
+        "2. Avalie tecnicamente se o conteúdo atende aos critérios específicos do campo (formato, consistência, dados obrigatórios, etc.), com base no edital.",
+        "3. Se correto, siga para o próximo campo sem pedir confirmação.",
+        "4. Se encontrar erro, ausência de informação ou inconsistência, aponte os problemas, sugira melhorias/correções, mantendo sempre linguagem técnica, objetiva e alinhada ao edital.",
+        "5. Solicite esclarecimento ao usuário se necessário.",
+        "6. Pergunte ao usuário se deseja aplicar as melhorias sugeridas ou excluir o campo; só reescreva/exclua se autorizado.",
+        "7. Solicite documentos de comprovação quando o edital exigir.",
+        "8. Mantenha coerência entre campos relacionados.",
+        "Repita esse fluxo para todos os campos do bloco."
+      ],
+      "criterios_comuns": [
+        "Manter linguagem formal, objetiva e alinhada ao edital em toda sugestão de ajuste.",
+        "Garantir alinhamento e coerência entre os campos do projeto.",
+        "Respeitar limites mínimos e máximos de caracteres, quando definidos.",
+        "Solicitar documentação comprobatória para campos críticos, quando necessário.",
+        "Apontar e sugerir solução para qualquer divergência, erro de formato, ausência ou inconsistência."
+      ],
+      "campos": [
+        {
+          "id": "2.1",
+          "nome_do_campo": "titulo_do_projeto",
+          "descricao": "Informe o nome e subtítulo do projeto de forma clara, atrativa e única, funcionando como marca própria, comunicando o propósito central do projeto. Deve criar identidade e ser conciso, com 10 a 20 palavras. Títulos genéricos, pouco atrativos ou desconectados do tema serão rejeitados.",
+          "criterios_campo": [
+            {"criterio": "Título deve ter entre 10 e 20 palavras.", "score": 0.5},
+            {"criterio": "Deve comunicar de forma clara, atrativa e concisa o propósito central do projeto.", "score": 0.5},
+            {"criterio": "Título deve funcionar como marca própria e criar identidade para o projeto.", "score": 0.5},
+            {"criterio": "Evitar títulos genéricos ou desconectados do tema.", "score": 0.5}
+          ],
+          "caracteristicas": {
+            "tipo_do_campo": "descritivo",
+            "linguagem": "acessível e objetiva",
+            "tom": "inspirador e técnico",
+            "publico_alvo": "avaliadores de inovação e gestores públicos",
+            "tamanho_campo": {"minimo": "10 palavras", "maximo": "20 palavras"},
+            "elementos_de_formatacao": {
+              "tipo_do_elemento": "Texto curto",
+              "detalhes": "Título principal e subtítulo separados por dois-pontos ou hífen; deve ser original, único, não genérico e de fácil divulgação."
+            }
+          },
+          "template": "[Título principal]: [Subtítulo opcional]",
+          "exemplos": [
+            "CertIAgro: Auditoria Rural Inteligente que Transforma Dados em Certificação e Conecta o Produtor ao Mercado Global"
+          ],
+          "instrucoes_ia": [
+            "Rejeite títulos genéricos, pouco atrativos ou sem relação clara com o tema do projeto.",
+            "Se o título não funcionar como marca própria, solicite ao usuário ajustar."
+          ]
+        },
+        {
+          "id": "2.2",
+          "nome_do_campo": "duracao_prevista",
+          "descricao": "Informe o período de execução do projeto, obrigatoriamente entre 24 e 36 meses. Propostas fora deste intervalo serão eliminadas. Não são aceitos intervalos fracionados.",
+          "criterios_campo": [
+            {"criterio": "Duração entre 24 e 36 meses, número inteiro.", "score": 0.5},
+            {"criterio": "Propostas fora desse intervalo serão sumariamente eliminadas.", "score": 0.5},
+            {"criterio": "Conferir se está coerente com o período previsto informado.", "score": 0.5}
+          ],
+          "caracteristicas": {
+            "tipo_do_campo": "numérico",
+            "linguagem": "formal",
+            "tom": "objetivo",
+            "publico_alvo": "analistas de projeto",
+            "tamanho_campo": {"minimo": "24", "maximo": "36"},
+            "elementos_de_formatacao": {
+              "tipo_do_elemento": "Número inteiro",
+              "detalhes": "Representa quantidade total de meses, não aceitar valores fracionados."
+            }
+          },
+          "template": "Duração: [24-36] meses",
+          "exemplos": ["24", "30", "36"],
+          "instrucoes_ia": [
+            "Alerta: Propostas fora do intervalo são sumariamente eliminadas.",
+            "Se o valor for fracionado, solicite ajuste imediato."
+          ]
+        },
+        {
+          "id": "2.3",
+          "nome_do_campo": "periodo_previsto",
+          "descricao": "Informe previsão de início e término do projeto, respeitando a duração informada. O início deve obrigatoriamente ser Maio/2026. O término precisa coincidir com a duração prevista.",
+          "criterios_campo": [
+            {"criterio": "O início deve ser obrigatoriamente Maio/2026.", "score": 0.5},
+            {"criterio": "O término deve coincidir com a duração prevista.", "score": 0.5}
+          ],
+          "caracteristicas": {
+            "tipo_do_campo": "descritivo",
+            "linguagem": "formal",
+            "tom": "técnico e cronológico",
+            "publico_alvo": "avaliadores de planejamento",
+            "tamanho_campo": {"minimo": "20", "maximo": "50"},
+            "elementos_de_formatacao": {
+              "tipo_do_elemento": "Texto livre com datas",
+              "detalhes": "Formato: Mês/Ano a Mês/Ano. Início sempre em Maio/2026."
+            }
+          },
+          "template": "Maio/2026 a Abril/2028",
+          "exemplos": [
+            "Maio/2026 a Abril/2028",
+            "Maio/2026 a Abril/2029"
+          ],
+          "instrucoes_ia": [
+            "Se o início não for Maio/2026, solicite ajuste.",
+            "Verifique se o término é coerente com a duração prevista."
+          ]
+        },
+        {
+          "id": "2.4",
+          "nome_do_campo": "tema_prioritario",
+          "descricao": "Selecione exatamente um dos temas prioritários definidos pelo edital. Seleção de mais de um tema implica eliminação. Outros campos devem ser respondidos considerando o contexto do tema escolhido.",
+          "criterios_campo": [
+            {"criterio": "Selecionar exatamente um tema do edital.", "score": 0.5},
+            {"criterio": "Seleção múltipla resulta em eliminação sumária.", "score": 0.5},
+            {"criterio": "As respostas de outros campos devem ser alinhadas ao tema selecionado.", "score": 0.5}
+          ],
+          "caracteristicas": {
+            "tipo_do_campo": "lista restrita",
+            "linguagem": "institucional",
+            "tom": "formal e objetivo",
+            "publico_alvo": "órgãos de fomento",
+            "tamanho_campo": {"minimo": "1", "maximo": "1"},
+            "elementos_de_formatacao": {
+              "tipo_do_elemento": "Seleção única",
+              "detalhes": "Selecionar entre os temas: Agricultura & Agronegócio, Biotecnologia & Saúde, Energias Inteligentes, Cidades Inteligentes, Educação, Sociedade & Economia. Veja https://www.seti.pr.gov.br/ugf/politicasediretrizes"
+            }
+          },
+          "template": "Tema: [Nome do tema conforme edital]",
+          "exemplos": [
+            "Tema: Agricultura & Agronegócio",
+            "Tema: Biotecnologia & Saúde",
+            "Tema: Energias Inteligentes",
+            "Tema: Cidades Inteligentes",
+            "Tema: Educação, Sociedade & Economia"
+          ],
+          "instrucoes_ia": [
+            "Se mais de um tema for selecionado, rejeite imediatamente.",
+            "Garanta que respostas nos demais campos estejam alinhadas ao tema prioritário."
+          ]
+        },
+        {
+          "id": "2.5",
+          "nome_do_campo": "resumo_publicavel",
+          "descricao": "Resumo público, de até 500 caracteres, utilizado para divulgação. Deve apresentar objetivo, solução tecnológica proposta e impacto esperado, com linguagem acessível e sem revelar dados confidenciais ou estratégicos. O campo não será alterado pelas agências; responsabilidade total do proponente.",
+          "criterios_campo": [
+            {"criterio": "Texto deve ter até 500 caracteres, linguagem clara e acessível.", "score": 0.5},
+            {"criterio": "Deve apresentar objetivo, solução proposta e impacto esperado.", "score": 0.5},
+            {"criterio": "Não deve conter dados confidenciais, estratégicos ou proprietários.", "score": 0.5},
+            {"criterio": "Alinhar o conteúdo ao restante do projeto.", "score": 0.5}
+          ],
+          "caracteristicas": {
+            "tipo_do_campo": "texto corrido",
+            "linguagem": "simples",
+            "tom": "didático e acessível",
+            "publico_alvo": "público geral",
+            "tamanho_campo": {"minimo": "100", "maximo": "500"},
+            "elementos_de_formatacao": {
+              "tipo_do_elemento": "Texto corrido",
+              "detalhes": "Parágrafo único, linguagem clara. Não será alterado pelas agências; responsabilidade do proponente."
+            }
+          },
+          "template": "[Resumo da proposta em linguagem acessível]",
+          "exemplos": [
+            "Este projeto visa desenvolver uma solução inteligente para certificação rural, conectando produtores ao mercado com o uso de IA."
+          ],
+          "instrucoes_ia": [
+            "Se o resumo estiver ausente, incoerente ou com informações confidenciais, solicitar ajuste imediato.",
+            "Reforce ao usuário que o texto será publicado como apresentado."
+          ]
+        },
+        {
+          "id": "2.6",
+          "nome_do_campo": "justificativa_e_relevancia_para_a_area_de_interesse",
+          "descricao": "Texto técnico até 4.000 caracteres apresentando problema ou demanda, contextualização com dados concretos, aderência ao tema, justificativa da solução, diferenciais, impacto positivo, relação com ODS (ONU), e, opcionalmente, conexão com áreas transversais ou NAPI (preferencialmente com comprovação documental).",
+          "criterios_campo": [
+            {"criterio": "Apresentar problema/demanda, contextualizar relevância com dados concretos.", "score": 0.5},
+            {"criterio": "Demonstrar aderência ao tema prioritário escolhido.", "score": 0.5},
+            {"criterio": "Relacionar solução a ODS, áreas transversais e, se possível, NAPI (com link de referência).", "score": 0.5},
+            {"criterio": "Texto deve ter até 4.000 caracteres.", "score": 0.5}
+          ],
+          "caracteristicas": {
+            "tipo_do_campo": "texto corrido técnico",
+            "linguagem": "técnica",
+            "tom": "analítico",
+            "publico_alvo": "avaliadores de mérito",
+            "tamanho_campo": {"minimo": "1000", "maximo": "4000"},
+            "elementos_de_formatacao": {
+              "tipo_do_elemento": "Texto corrido",
+              "detalhes": "Parágrafos bem estruturados, com dados quantitativos, ligação com ODS e áreas do edital. Referência para NAPI: https://www.iaraucaria.pr.gov.br/todos-napis/"
+            }
+          },
+          "template": "[Texto técnico contendo problema, relevância, diferencial, impactos, alinhamento ODS, conexão transversal/NAPI]",
+          "exemplos": [
+            "A baixa adesão de pequenos produtores a certificações agrícolas reduz sua competitividade internacional. Este projeto visa atacar esse gargalo com uma solução acessível e inteligente, alinhada ao ODS 2 e 12."
+          ],
+          "instrucoes_ia": [
+            "Se faltar algum tópico obrigatório (problema, dados, aderência, impacto, ODS, NAPI), solicitar complemento.",
+            "Recomendar uso de links oficiais/documentação quando aplicável."
+          ]
+        },
+        {
+          "id": "2.7",
+          "nome_do_campo": "objetivo_geral",
+          "descricao": "Resultado principal esperado ao final do projeto, descrevendo o que será feito para alcançá-lo, alinhado ao tempo, orçamento e diretrizes do edital. O produto/processo final deve estar pronto para certificação, produção ou comercialização. Encerrar o texto deixando explícito o status do produto/solução.",
+          "criterios_campo": [
+            {"criterio": "Apontar claramente o entregável final.", "score": 0.5},
+            {"criterio": "Texto coerente com duração, orçamento e diretrizes do edital.", "score": 0.5},
+            {"criterio": "O texto deve finalizar com status esperado do produto/processo (certificação, produção, comercialização).", "score": 0.5}
+          ],
+          "caracteristicas": {
+            "tipo_do_campo": "texto corrido",
+            "linguagem": "técnica",
+            "tom": "descritivo",
+            "publico_alvo": "avaliadores do projeto",
+            "tamanho_campo": {"minimo": "500", "maximo": "4000"},
+            "elementos_de_formatacao": {
+              "tipo_do_elemento": "Parágrafo",
+              "detalhes": "Texto direto, objetivo, sem subjetividades. Encerrar com status esperado."
+            }
+          },
+          "template": "[Texto com entregável principal do projeto e encerramento padrão]",
+          "exemplos": [
+            "Ao final do projeto, espera-se que o produto/solução esteja tecnicamente validado e pronto para certificação, produção ou comercialização, conforme diretrizes do edital."
+          ],
+          "instrucoes_ia": [
+            "Exigir que o encerramento do texto deixe explícito o status final do produto/processo.",
+            "Se não houver vínculo direto com certificação, produção ou comercialização, solicitar ajuste."
+          ]
+        },
+        {
+          "id": "2.8",
+          "nome_do_campo": "objetivos_especificos",
+          "descricao": "Lista de metas específicas, práticas e mensuráveis para atingir o objetivo geral. Deve haver ao menos um objetivo a cada 6 meses, incluindo aceleração e internacionalização. Cada objetivo deve ser auditável, vinculado ao cronograma e apresentar meta SMART.",
+          "criterios_campo": [
+            {"criterio": "Deve conter pelo menos um objetivo a cada 6 meses.", "score": 0.5},
+            {"criterio": "Deve incluir objetivos de aceleração e internacionalização.", "score": 0.5},
+            {"criterio": "Cada objetivo deve iniciar com verbo no infinitivo e apresentar meta SMART vinculada ao cronograma.", "score": 0.5},
+            {"criterio": "Cada objetivo deve mencionar prazo e critério de sucesso.", "score": 0.5}
+          ],
+          "caracteristicas": {
+            "tipo_do_campo": "lista estruturada",
+            "linguagem": "técnica",
+            "tom": "objetivo",
+            "publico_alvo": "gestores e avaliadores",
+            "tamanho_campo": {"minimo": "5", "maximo": "10"},
+            "elementos_de_formatacao": {
+              "tipo_do_elemento": "Lista numerada",
+              "detalhes": "Cada item com verbo no infinitivo, data/meta vinculada, indicador SMART, incluindo aceleração e internacionalização."
+            }
+          },
+          "template": "1. Desenvolver [ação], até [mês/ano], com [indicador/critério].",
+          "exemplos": [
+            "Concluir, até o final do 3º mês do projeto, o diagnóstico técnico da infraestrutura atual e realizar ao menos 5 entrevistas com usuários-chave para levantamento de requisitos funcionais e não funcionais da solução.",
+            "Desenvolver e entregar um protótipo funcional da solução com pelo menos 80% das funcionalidades principais implementadas até o 10º mês do projeto.",
+            "Executar, até o Mês 14, uma bateria de testes em ambiente controlado com pelo menos 90% de sucesso nos cenários definidos, garantindo a estabilidade e funcionalidade da solução.",
+            "Realizar até o 20º mês do projeto a validação da solução com ao menos 10 usuários reais, atingindo um índice de satisfação superior a 4,0 em escala de 1 a 5.",
+            "Concluir até o 24º mês a estruturação de um plano de aceleração para o produto, elaborado com apoio de consultoria credenciada, contemplando roadmap de crescimento, mercado-alvo e estratégia de monetização.",
+            "Elaborar até o 30º mês um plano estratégico de internacionalização com foco em 2 mercados-alvo, contendo análise de viabilidade, barreiras regulatórias, adaptação do produto e canais de entrada."
+          ],
+          "instrucoes_ia": [
+            "Solicite ajuste se faltar objetivo de aceleração ou internacionalização.",
+            "Se não houver objetivos suficientes para o tempo de execução, solicite ajuste.",
+            "Verifique se cada objetivo apresenta meta SMART, prazo e critério de sucesso."
+          ]
+        },
+        {
+          "id": "2.9",
+          "nome_do_campo": "metodologia",
+          "descricao": "Descreva os métodos, técnicas, etapas, ferramentas, artefatos e boas práticas a serem utilizados, detalhando como cada etapa contribui para os resultados do projeto. Explicite o modelo de desenvolvimento (tradicional, ágil ou híbrido); recomende estrutura dos 5 grupos do PMBOK, detalhando as entregas de cada fase.",
+          "criterios_campo": [
+            {"criterio": "Explicitar modelo de desenvolvimento (tradicional, ágil, híbrido).", "score": 0.5},
+            {"criterio": "Apresentar etapas do projeto e entregas vinculadas a cada uma.", "score": 0.5},
+            {"criterio": "Relacionar instrumentos, ferramentas, artefatos e boas práticas aplicadas em cada etapa.", "score": 0.5},
+            {"criterio": "Recomendar estrutura dos 5 grupos do PMBOK detalhando as entregas.", "score": 0.5}
+          ],
+          "caracteristicas": {
+            "tipo_do_campo": "texto corrido técnico",
+            "linguagem": "técnica e estruturada",
+            "tom": "profissional",
+            "publico_alvo": "avaliadores técnicos",
+            "tamanho_campo": {"minimo": "1000", "maximo": "4000"},
+            "elementos_de_formatacao": {
+              "tipo_do_elemento": "Texto corrido",
+              "detalhes": "Divisão por grupos de processo e entregas; PMBOK: Iniciação, Planejamento, Execução, Monitoramento/Controle, Encerramento."
+            }
+          },
+          "template": "[Texto estruturado conforme PMBOK, detalhando etapas, entregas, ferramentas e artefatos]",
+          "exemplos": [
+            "O projeto seguirá abordagem ágil, com sprints bimestrais, entregas contínuas e revisão técnica a cada marco de 6 meses.",
+            "Execução dividida em: Iniciação (levantamento de requisitos, análise de viabilidade), Planejamento (design, arquitetura, cronograma, plano de riscos), Execução (desenvolvimento, testes, validações), Monitoramento/Controle (avaliação técnica, KPIs, gestão de mudanças), Encerramento (publicação final, documentação, plano de negócios)."
+          ],
+          "instrucoes_ia": [
+            "Se não houver etapas/processos claros, sugerir estrutura baseada no PMBOK ou equivalente.",
+            "Recomendar detalhamento de ferramentas, artefatos e boas práticas adotadas em cada etapa."
+          ]
+        },
+        {
+          "id": "2.10",
+          "nome_do_campo": "equipe_tecnica",
+          "descricao": "Descreva detalhadamente todos os membros da equipe, apresentando nome completo, instituição de vínculo, tipo de vínculo (CLT, Sócio, ICTPR), nível de formação, função no projeto, atividades detalhadas e como a experiência contribui para o projeto. O coordenador técnico deve ter experiência compatível e comprovada. Solicite documentação de vínculo, se necessário.",
+          "criterios_campo": [
+            {"criterio": "Apresentar nome completo, instituição, vínculo, formação, função e atividades de cada membro.", "score": 0.5},
+            {"criterio": "Coordenador técnico deve ter experiência compatível e comprovada.", "score": 0.5},
+            {"criterio": "Garantir coerência entre função, formação e atividades de cada membro.", "score": 0.5},
+            {"criterio": "Solicitar documentação de vínculo se necessário.", "score": 0.5}
+          ],
+          "caracteristicas": {
+            "tipo_do_campo": "lista estruturada",
+            "linguagem": "técnica e administrativa",
+            "tom": "formal",
+            "publico_alvo": "analistas de fomento",
+            "tamanho_campo": {"minimo": "2 membros", "maximo": "10 membros"},
+            "elementos_de_formatacao": {
+              "tipo_do_elemento": "Lista detalhada com subtópicos",
+              "detalhes": "Cada membro com os campos: nome, vínculo, função, formação, instituição, atividades, experiência e, se coordenador, experiência compatível comprovada."
+            }
+          },
+          "template": "- Nome: [Nome completo]\n  Vínculo: [CLT/Sócio/ICTPR]\n  Formação: [Formação Acadêmica]\n  Instituição: [Empresa/ICT]\n  Função: [Função no Projeto]\n  Atividades: [Descrição das atividades que irá desempenhar]",
+          "exemplos": [
+            "Nome: João da Silva\n  Vínculo: CLT\n  Formação: Engenharia de Software\n  Instituição: TechSoft Ltda\n  Função: Desenvolvedor Backend\n  Atividades: Desenvolvimento de APIs REST, integração com banco de dados, testes automatizados.",
+            "Nome: Ana Souza\n  Vínculo: Sócia\n  Formação: Administração\n  Instituição: AgroCert Tecnologia\n  Função: Coordenadora de Projeto\n  Atividades: Planejamento estratégico, interface com stakeholders, acompanhamento de metas."
+          ],
+          "instrucoes_ia": [
+            "Verifique se há vínculo formal e se a equipe está compatível com a complexidade do projeto.",
+            "Solicite documentação de vínculo para membros da equipe, se necessário.",
+            "Garanta que o coordenador técnico possua experiência compatível comprovada."
+          ]
+        }
+      ]
+    }
+  ]
+}

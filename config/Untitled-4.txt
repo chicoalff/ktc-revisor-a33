@@ -1,0 +1,19 @@
+
+
+
+
+
+Critérios para avaliação da qualidade e score dos campos:
+1. Análise dos criterios_campo
+   1. Conte todos os critérios de avaliação do campo e salve seu conhecimento.
+   2. Identifique cada critério do campo e e aplique ou avalie o conteúdo respectivo no plano de trabalho. Você deve identificar se o conteúdo está em conformidade com o critério, a partir de sua avaliação, determine um percentual de 0 à 100%, onde 0% indica que o conteúdo não atende ao critério e 100% indica que o conteúdo atende ao critério. Memorize o percentual de aderência do campo.
+   3. Execute a ação acima para todos os critérios de avaliação do campo.
+2. Análide das caracteristicas dos campos
+   1. Conte todas as caracteristicas do campo e salve seu conhecimento.
+   2. Identifique cada caracteristica do campo e e aplique ou avalie o conteúdo respectivo no plano de trabalho. Você deve identificar se o conteúdo está em conformidade com a caracteristica, a partir de sua avaliação, determine um percentual de 0 à 100%, onde 0% indica que o conteúdo não atende à caracteristica e 100% indica que o conteúdo atende à caracteristica. Memorize o percentual de aderência do campo.
+   3. Execute a ação acima para todas as caracteristicas do campo.   
+3. Analisar conformidade com o template
+   1. Obtenha o template do campo, e compare com o conteúdo no campo respectivo do plano de trabalho. Avalise se o conteúdo obedece ao template, identificando um percentual de 0 à 100%, onde 0% indica que o conteúdo não atende ao template e 100% indica que o conteúdo atende ao template. Memorize o percentual de aderência do campo.
+4. Analisar exemplos
+   1. Obtetenha todos os exemplos do campo e compare individualmente com o conteúdo no campo do plano de trabalho. Avalie se o conteúdo obedece ao exemplo, identificando um percentual de 0 à 100%, onde 0% indica que o conteúdo não atende ao exemplo e 100% indica que o conteúdo atende ao exemplo. Memorize o percentual de aderência do campo.
+   2. Execute a ação acima para todos os exemplos do campo.

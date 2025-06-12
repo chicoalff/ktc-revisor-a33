@@ -1,0 +1,66 @@
+{
+    "metadata": { // Metadados gerais do arquivo
+        "versao": "1.0", // Versão do arquivo
+        "arquivo": "NOME_DO_ARQUIVO.json", // Nome do arquivo
+        "descricao_arquivo": "Descrição geral do conteúdo e propósito deste arquivo de instruções.", // Descrição geral do conteúdo e propósito do arquivo
+        "autor": "Nome do responsável", // Autor responsável pelo arquivo
+        "data_ultima_edicao": "YYYY-MM-DD HH:MM:SS", // Data da última edição do arquivo
+        "nome_do_bloco_detalhado": "NOME COMPLETO DO BLOCO" // Nome completo do bloco detalhado
+    },
+    "blocos": [ // Lista de blocos presentes no arquivo
+        {
+            "nome_do_bloco": "NOME DO BLOCO", // Nome do bloco
+            "instrucoes_ia": [ // Instruções específicas para IA relacionadas ao bloco
+                "Instrução 1 para IA do bloco.",
+                "Instrução 2 para IA do bloco."
+            ],
+            "critérios_do_bloco": [ // Critérios de avaliação do bloco
+                {
+                    "criterio": "Descrição do critério de avaliação para o bloco.", // Descrição do critério de avaliação
+                    "peso": 0.7 // Peso do critério na avaliação
+                }
+                // ... Adicione outros critérios de bloco conforme necessário
+            ],
+            "campos": { // Campos detalhados do bloco
+                "nome_do_campo_snake_case": { // Nome do campo em formato snake_case
+                    "id": "ID_UNICO_CAMPO", // Identificador único do campo
+                    "descricao": "Descrição detalhada do propósito e conteúdo esperado para este campo.", // Descrição detalhada do propósito e conteúdo esperado para o campo
+                    "criterios_de_avaliacao": [ // Critérios de avaliação específicos para o campo
+                        {
+                            "criterio": "Descrição do critério de avaliação para o campo.", // Descrição do critério de avaliação
+                            "peso": 0.5 // Peso do critério na avaliação
+                        }
+                        // ... Adicione outros critérios do campo conforme necessário
+                    ],
+                    "caracteristicas": { // Características específicas do campo
+                        "requisitos": [ // Requisitos obrigatórios para o campo
+                            "Primeiro requisito obrigatório do campo.",
+                            "Segundo requisito obrigatório do campo."
+                            // ... Adicione outros requisitos se necessário
+                        ],
+                        "estilo_e_linguagem": { // Estilo e linguagem esperados para o campo
+                            "linguagem": "Tipo de linguagem a ser utilizada.", // Tipo de linguagem a ser utilizada
+                            "tom": "Tom de voz esperado para o conteúdo do campo." // Tom de voz esperado para o conteúdo do campo
+                        },
+                        "tamanho_campo": { // Tamanho esperado para o campo
+                            "minimo_caracteres": 10, // Número mínimo de caracteres
+                            "maximo_caracteres": 255 // Número máximo de caracteres
+                        }
+                    },
+                    "template": "Modelo de apresentação esperado para o campo.", // Modelo de apresentação esperado para o campo
+                    "exemplos": [ // Exemplos de preenchimento correto do campo
+                        "Exemplo de preenchimento correto 1.",
+                        "Exemplo de preenchimento correto 2."
+                    ],
+                    "instrucoes_ia": [ // Instruções específicas para IA relacionadas ao campo
+                        "Instrução 1 para IA do campo.",
+                        "Instrução 2 para IA do campo."
+                    ],
+                    "status_treinamento_ia": "NÍVEL_TREINAMENTO_IA" // Status de treinamento da IA para o campo
+                }
+                // ... Adicione outros campos conforme necessário
+            }
+        }
+        // ... Adicione outros blocos conforme necessário
+    ]
+}

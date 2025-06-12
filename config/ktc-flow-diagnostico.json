@@ -1,0 +1,99 @@
+{
+  "fluxo": "diagnostico_plano_trabalho",
+  "etapas": [
+    {
+      "id": 1,
+      "nome": "SolicitacaoArquivo",
+      "acao": "Solicitar envio do arquivo do plano de trabalho (.docx, .pdf, .md). Após o recebimento, processar e identificar detalhes, critérios, recomendações, templates, exemplos e propriedades, salvando em memória para uso no diagnóstico. Exibir ao usuário os detalhes iniciais do plano e pedir confirmação para iniciar o diagnóstico."
+    },
+    {
+      "id": 2,
+      "nome": "AtualizacaoConhecimento",
+      "acao": "Exibir mensagem ao usuário sobre atualização do conhecimento via API productnauta.com. Executar automaticamente as actions getIndiceBlocos, getBloco1, getBloco2, getBloco3, getBloco4, atualizando todo o contexto antes de prosseguir. Informar ao usuário que o conhecimento foi atualizado."
+    },
+    {
+      "id": 3,
+      "nome": "MenuDiagnostico",
+      "acao": "Exibir menu ao usuário: 1 - Diagnóstico Completo, 2 - Diagnóstico de Bloco, 3 - Voltar. Prosseguir conforme escolha do usuário."
+    },
+    {
+      "id": 4,
+      "nome": "DiagnosticoCompleto",
+      "acao": [
+        "Para cada campo do plano de trabalho, utilizar informações, critérios, recomendações, exemplos e templates dos arquivos de instruções.",
+        {
+          "avaliacao_criterios_campo": {
+            "propriedade": "criterios_campo",
+            "acoes": [
+              "Contar todos os critérios definidos.",
+              "Para cada critério, avaliar se o conteúdo atende ao critério.",
+              "Determinar percentual de aderência (0% a 100%) para cada critério.",
+              "Memorizar percentuais individuais e calcular score ponderado conforme o campo."
+            ]
+          },
+          "avaliacao_caracteristicas": {
+            "propriedade": "caracteristicas",
+            "acoes": [
+              "Contar subpropriedades relevantes.",
+              "Para cada característica, avaliar conformidade do conteúdo.",
+              "Determinar percentual de aderência (0% a 100%) para cada característica.",
+              "Memorizar os percentuais para compor o score do campo."
+            ]
+          },
+          "avaliacao_template": {
+            "propriedade": "template",
+            "acoes": [
+              "Comparar o conteúdo do campo com o template.",
+              "Avaliar percentual de aderência (0% a 100%).",
+              "Memorizar percentual para compor o score."
+            ]
+          },
+          "avaliacao_exemplos": {
+            "propriedade": "exemplos",
+            "acoes": [
+              "Listar todos os exemplos.",
+              "Para cada exemplo, comparar com o conteúdo do campo.",
+              "Determinar percentual de aderência (0% a 100%) para cada exemplo.",
+              "Memorizar percentuais individuais e calcular média final, se necessário."
+            ]
+          }
+        },
+        "Salvar todos os percentuais por critério, característica, template e exemplo.",
+        "Calcular score final ponderado do campo.",
+        "Executar campo a campo, sempre alinhado ao edital e às instruções."
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "RelatorioFinal",
+      "acao": "Exibir relatório por bloco e campo, incluindo score e recomendações conforme modelo: Empresa, Cidade/UF, Projeto, Área temática, tabela de avaliação de cada campo com score e recomendação, score total do bloco."
+    }
+  ],
+  "observacoes": [
+    "Todos os percentuais de aderência devem ser salvos individualmente.",
+    "O processo é executado campo a campo, com score final ponderado.",
+    "Fluxo padronizado garante rastreabilidade, objetividade e aderência ao edital."
+  ],
+  "exemplo_relatorio": {
+    "cabecalho": "KTC REVISOR - DIAGNÓSTICO DE PLANO DE TRABALHO",
+    "empresa": "[nome da empresa]",
+    "cidade_uf": "[cidade/UF]",
+    "projeto": "[nome do projeto]",
+    "area_tematica": "[área temática]",
+    "blocos": [
+      {
+        "nome_bloco": "Dados Cadastrais",
+        "campos": [
+          {
+            "campo": "objetivo geral",
+            "itens": 11,
+            "adequados": 9,
+            "score": "83/100",
+            "recomendacao": "Pode melhorar"
+          }
+        ],
+        "score_total": "83/100"
+      }
+    ]
+  }
+}

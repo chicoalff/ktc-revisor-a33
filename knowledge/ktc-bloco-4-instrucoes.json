@@ -1,0 +1,209 @@
+{
+"metadata": {
+    "tipo_arquivo": "instrucoes",
+    "finalidade": "Bloco 4 - Instruções e critérios para preenchimento do plano de trabalho Tecnova III-PR",
+    "versao": "1.0",
+    "status": "oficial",
+    "origem": "Kepha Revisor - Tecnova III PR",
+    "arquivo": "ktc-bloco-4-instrucoes.json",
+    "descricao_arquivo": "Instruções detalhadas para preenchimento e revisão dos campos do Bloco 4 – Orçamento, Fontes de Recursos e Sustentabilidade Financeira, conforme edital Tecnova III-PR. Inclui critérios de avaliação, exemplos, templates, orientações de IA, regras obrigatórias de categorização e validação cruzada.",
+    "autor": "Chico Alff",
+    "email_autor": "francilvio@gmail.com",
+    "data_ultima_edicao": "2025-06-12 15:10:00",
+    "nome_do_bloco_detalhado": "4 - Orçamento, Fontes de Recursos e Sustentabilidade Financeira",
+    "referencia_edital": "Tecnova III-PR 05/2025",
+    "versao_bloco": "1.0",
+    "estrutura_aprovada": true
+},
+"blocos": [
+    {
+    "nome_do_bloco": "4 - Orçamento, Fontes de Recursos e Sustentabilidade Financeira",
+    "instrucoes_ia_bloco": [
+        "Para cada campo do bloco 4, siga este fluxo padrão:",
+        "1. Exiba o conteúdo integral do campo ao usuário.",
+        "2. Avalie tecnicamente se o conteúdo atende aos critérios específicos do campo (formato, consistência, dados obrigatórios, etc.), com base no edital.",
+        "3. Se correto, siga para o próximo campo sem pedir confirmação.",
+        "4. Se encontrar erro, ausência de informação ou inconsistência, aponte os problemas, sugira melhorias/correções, mantendo sempre linguagem técnica, objetiva e alinhada ao edital.",
+        "5. Solicite esclarecimento, documentação ou planilhas complementares ao usuário se necessário.",
+        "6. Mantenha compatibilidade entre valores, categorias e fontes; confira com as regras e planilhas do edital.",
+        "7. Para campos de planilhas ou tabelas, exigir compatibilidade entre quadro resumo, plano de aplicação e fontes de recursos.",
+        "8. Cobre discriminação de despesas por tipo (Correntes/Capital), categoria e origem dos recursos.",
+        "Repita esse fluxo para todos os campos do bloco."
+    ],
+    "criterios_comuns": [
+        "Manter linguagem formal, objetiva, precisa e financeira.",
+        "Respeitar limites e regras financeiras definidos no edital.",
+        "Validar coerência, categorização correta e compatibilidade entre todos os valores apresentados no bloco.",
+        "Apresentar justificativas claras, proporcionais e específicas para cada item de orçamento.",
+        "Solicitar planilhas, tabelas ou documentos comprobatórios sempre que necessário.",
+        "Verificar se despesas de cloud, SaaS, licenças estão em Serviços de Terceiros PJ.",
+        "Para contrapartida, conferir percentuais conforme faturamento e distinguir financeira/econômica.",
+        "Apontar e sugerir solução para qualquer divergência, erro de cálculo, ausência ou inconsistência.",
+        "Erros em categorização ou incompatibilidade entre tabelas e planilhas implicam em eliminação."
+    ],
+    "campos": [
+        {
+        "id": "4.1",
+        "nome_do_campo": "orcamento_resumido",
+        "descricao": "Quadro resumo dos valores do orçamento do projeto, discriminando despesas correntes e de capital, detalhando os totais previstos por fonte (Tecnova, Contrapartida Obrigatória, Contrapartida Adicional) e por categoria de despesa (RH, equipamentos, serviços de terceiros PJ, materiais, viagens, etc.). Deve bater com os valores detalhados nas planilhas e seguir as regras de classificação obrigatória do edital.",
+        "criterios_campo": [
+            {"criterio": "Apresentar valores totais por fonte e categoria de despesa (RH, equipamentos, serviços de terceiros PJ, materiais, viagens).", "score": 0.5},
+            {"criterio": "O somatório deve ser igual aos valores detalhados nas planilhas de orçamento e plano de aplicação.", "score": 0.5},
+            {"criterio": "Respeitar os limites máximos/mínimos de cada fonte e categoria conforme edital.", "score": 0.5},
+            {"criterio": "Classificar corretamente despesas de cloud, SaaS, licenças e assinaturas como Serviços de Terceiros Pessoa Jurídica.", "score": 0.5}
+        ],
+        "caracteristicas": {
+            "tipo_do_campo": "tabela resumo",
+            "linguagem": "técnica e financeira",
+            "tom": "objetivo",
+            "publico_alvo": "analistas financeiros",
+            "tamanho_campo": {"minimo": null, "maximo": null},
+            "elementos_de_formatacao": {
+            "tipo_do_elemento": "Tabela de totais",
+            "detalhes": "Apresentar colunas para fonte, categoria, tipo (Corrente/Capital) e linhas para valores totais."
+            }
+        },
+        "template": "Fonte | Tipo | RH | Equipamentos | Serviços PJ | Materiais | Viagens | TOTAL\nTecnova | Corrente/Capital |  |  |  |  |  | \nContrapartida Obrigatória | Corrente/Capital |  |  |  |  |  | \nContrapartida Adicional | Corrente/Capital |  |  |  |  |  | \nTOTAL |  |  |  |  |  |  | ",
+        "exemplos": [
+            "Tecnova | Corrente | 200.000 | 0 | 50.000 | 30.000 | 10.000 | 290.000",
+            "Tecnova | Capital | 0 | 10.000 | 0 | 0 | 0 | 10.000",
+            "Contrapartida Obrigatória | Corrente | 100.000 | 0 | 20.000 | 10.000 | 5.000 | 135.000",
+            "Contrapartida Obrigatória | Capital | 0 | 5.000 | 0 | 0 | 0 | 5.000",
+            "TOTAL |  | 300.000 | 15.000 | 70.000 | 40.000 | 15.000 | 440.000"
+        ],
+        "instrucoes_ia": [
+            "Se houver divergência entre o quadro resumo, plano de aplicação e as planilhas detalhadas, solicite ajuste imediato.",
+            "Verifique se todas as despesas estão corretamente categorizadas conforme o edital."
+        ]
+        },
+        {
+        "id": "4.2",
+        "nome_do_campo": "justificativa_orcamentaria",
+        "descricao": "Justificativa detalhada para cada categoria e item de despesa, explicitando necessidade, proporcionalidade, pertinência e função no projeto. Distinguir contrapartida financeira e econômica conforme edital. Limite de 2.000 caracteres por justificativa de item.",
+        "criterios_campo": [
+            {"criterio": "Justificar individualmente cada item e categoria de despesa.", "score": 0.5},
+            {"criterio": "Detalhar pertinência, proporcionalidade e vínculo com as etapas do projeto.", "score": 0.5},
+            {"criterio": "Para contrapartida, distinguir claramente entre financeira e econômica.", "score": 0.5},
+            {"criterio": "Itens como aceleração/internacionalização devem ter justificativa específica vinculada ao cronograma/parcelas.", "score": 0.5}
+        ],
+        "caracteristicas": {
+            "tipo_do_campo": "texto corrido justificado",
+            "linguagem": "técnica e financeira",
+            "tom": "analítico",
+            "publico_alvo": "avaliadores financeiros e técnicos",
+            "tamanho_campo": {"minimo": "200", "maximo": "2000"},
+            "elementos_de_formatacao": {
+            "tipo_do_elemento": "Texto estruturado por categoria e item",
+            "detalhes": "Justificativas apresentadas por item e categoria, preferencialmente em tópicos."
+            }
+        },
+        "template": "- RH: [Justificativa]\n- Equipamentos: [Justificativa]\n- Serviços PJ: [Justificativa]\n- Materiais: [Justificativa]\n- Viagens: [Justificativa]",
+        "exemplos": [
+            "- RH: Necessário para execução de atividades-chave descritas nas etapas do projeto.\n- Equipamentos: Essenciais para prototipagem e testes laboratoriais.\n- Serviços PJ: Contratação de cloud/saas, suporte técnico e consultoria especializada.\n- Materiais: Materiais de consumo para o laboratório.\n- Viagens: Participação em eventos e reuniões técnicas."
+        ],
+        "instrucoes_ia": [
+            "Solicite detalhamento extra para justificativas genéricas ou vagas.",
+            "Valide a associação de cada item com atividade do projeto e cronograma.",
+            "Se contrapartida, exija distinção clara entre financeira e econômica."
+        ]
+        },
+        {
+        "id": "4.3",
+        "nome_do_campo": "fontes_de_recursos",
+        "descricao": "Descrição detalhada das fontes de recursos previstas (Tecnova, Contrapartida Obrigatória, Contrapartida Adicional, outras), incluindo origem, natureza (financeira/econômica), composição e percentuais. Contrapartida obrigatória mínima depende do faturamento da empresa. Soma dos percentuais deve ser 100%.",
+        "criterios_campo": [
+            {"criterio": "Listar e detalhar todas as fontes, origem, natureza e percentuais.", "score": 0.5},
+            {"criterio": "Verificar compatibilidade com regras do edital e percentuais mínimos de contrapartida.", "score": 0.5},
+            {"criterio": "Garantir que a soma dos percentuais seja igual a 100%.", "score": 0.5}
+        ],
+        "caracteristicas": {
+            "tipo_do_campo": "tabela detalhada",
+            "linguagem": "técnica e financeira",
+            "tom": "objetivo",
+            "publico_alvo": "analistas financeiros",
+            "tamanho_campo": {"minimo": null, "maximo": null},
+            "elementos_de_formatacao": {
+            "tipo_do_elemento": "Tabela detalhada",
+            "detalhes": "Colunas para fonte, origem, natureza, valor absoluto, percentual."
+            }
+        },
+        "template": "Fonte | Natureza | Origem | Valor | Percentual\nTecnova | Financeira | Fomento |  | \nContrapartida Obrigatória | Econômica/Financeira | Empresa |  | \nContrapartida Adicional | Econômica/Financeira | Empresa |  | \nOutras |  |  |  | ",
+        "exemplos": [
+            "Tecnova | Financeira | Fomento | 300.000 | 68%",
+            "Contrapartida Obrigatória | Econômica | Empresa | 140.000 | 32%",
+            "Contrapartida Adicional | - | - | 0 | 0%",
+            "TOTAL |  |  | 440.000 | 100%"
+        ],
+        "instrucoes_ia": [
+            "Solicite planilha/tabela detalhada se não houver.",
+            "Alerte se a soma dos percentuais não for 100% ou se percentual de contrapartida estiver incorreto.",
+            "Exija origem e natureza de cada fonte."
+        ]
+        },
+        {
+        "id": "4.4",
+        "nome_do_campo": "plano_de_aplicacao_financeira",
+        "descricao": "Tabela detalhada com as despesas previstas, discriminando por tipo (Correntes/Capital) e origem (Tecnova, Contrapartida Obrigatória, Adicional). Deve seguir padrão: Item, Elemento, Quantidade, Valor Unitário, Justificativa (até 2.000 caracteres/item), Categoria. Todos os itens devem estar corretamente classificados conforme regras do edital.",
+        "criterios_campo": [
+            {"criterio": "Descrever todas as despesas detalhadamente por item, elemento, quantidade, valor unitário, justificativa, categoria e tipo.", "score": 0.5},
+            {"criterio": "Seguir classificação obrigatória de acordo com o edital.", "score": 0.5},
+            {"criterio": "Justificativas limitadas a 2.000 caracteres/item.", "score": 0.5},
+            {"criterio": "Compatibilizar valores deste campo com quadro resumo e fontes de recurso.", "score": 0.5}
+        ],
+        "caracteristicas": {
+            "tipo_do_campo": "tabela detalhada",
+            "linguagem": "técnica e financeira",
+            "tom": "objetivo",
+            "publico_alvo": "analistas financeiros",
+            "tamanho_campo": {"minimo": null, "maximo": null},
+            "elementos_de_formatacao": {
+            "tipo_do_elemento": "Tabela de aplicação",
+            "detalhes": "Colunas: Item, Elemento, Quantidade, Valor Unitário (R$), Justificativa, Categoria, Tipo, Origem"
+            }
+        },
+        "template": "Item | Elemento | Quantidade | Valor Unitário | Justificativa | Categoria | Tipo | Origem",
+        "exemplos": [
+            "RH | Engenheiro de Software | 12 meses | 10.000 | Atuação no desenvolvimento do MVP, conforme cronograma | RH | Corrente | Tecnova",
+            "Equipamentos | Servidor Dedicado | 1 | 10.000 | Essencial para testes de IA e prototipagem | Equipamentos | Capital | Contrapartida Obrigatória",
+            "Serviços PJ | Cloud AWS | 12 meses | 2.500 | Armazenamento de dados e hospedagem do sistema | Serviços PJ | Corrente | Tecnova"
+        ],
+        "instrucoes_ia": [
+            "Valide compatibilidade de valores com quadro resumo e fontes.",
+            "Exija que justificativas respeitem limite e que todos os itens estejam classificados corretamente.",
+            "Solicite ajuste se houver erro de categorização ou valor divergente."
+        ]
+        },
+        {
+        "id": "4.5",
+        "nome_do_campo": "sustentabilidade_financeira",
+        "descricao": "Descrever as estratégias e fontes para garantir a sustentabilidade financeira do projeto após o término do apoio Tecnova, incluindo geração de receitas, novos investimentos, expansão de mercado, prestação de serviços, lançamento de produtos, contratos, etc. Deve demonstrar viabilidade realista e alinhamento com o setor.",
+        "criterios_campo": [
+            {"criterio": "Descrever estratégias claras e realistas de sustentabilidade pós-projeto.", "score": 0.5},
+            {"criterio": "Apontar fontes de receita futuras e plano de continuidade.", "score": 0.5},
+            {"criterio": "Evitar depender exclusivamente de novos editais para continuidade.", "score": 0.5}
+        ],
+        "caracteristicas": {
+            "tipo_do_campo": "texto corrido técnico",
+            "linguagem": "técnica e estratégica",
+            "tom": "analítico",
+            "publico_alvo": "avaliadores e agentes de fomento",
+            "tamanho_campo": {"minimo": "300", "maximo": "2000"},
+            "elementos_de_formatacao": {
+            "tipo_do_elemento": "Texto estruturado",
+            "detalhes": "Descrever faturamento, vendas, contratos, novos investimentos, expansão e diversificação de receitas pós-projeto."
+            }
+        },
+        "template": "[Texto detalhando estratégia de sustentabilidade financeira, fontes de receita, planos de continuidade e expansão]",
+        "exemplos": [
+            "Após o término do projeto, as receitas serão provenientes de contratos com clientes privados, expansão de vendas nacionais e lançamento de novos módulos do produto.",
+            "O plano prevê prestação de serviços recorrentes, ampliação da base de clientes e participação em eventos setoriais para prospecção de novos contratos."
+        ],
+        "instrucoes_ia": [
+            "Se não houver estratégia clara, solicitar ajuste.",
+            "Evite aceitar respostas que dependam exclusivamente de novos editais de fomento."
+        ]
+        }
+    ]
+    }
+]
+}  

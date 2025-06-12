@@ -1,0 +1,71 @@
+{
+    "metadata": {
+        "versao": "1.0",
+        "arquivo": "ktc-bloco-1-instrucoes.json",
+        "descricao_arquivo": "Template padrão para estrutura de blocos e campos.",
+        "autor": "Chico Alff",
+        "data_ultima_edicao": "YYYY-MM-DD HH:MM:SS",
+        "nome_do_bloco_detalhado": "NOME COMPLETO DO BLOCO PADRÃO"
+    },
+    "blocos": [
+        {
+            "nome_do_bloco": "NOME DO BLOCO PADRÃO",
+            "instrucoes_ia_bloco": [
+                "1. Aviso de início de análise: Sempre que iniciar a análise e avaliação de um campo durante o fluxo de revisão do plano de trabalho, informe explicitamente o usuário no seguinte formato: 'Analisando \"[nome do campo]\" - Progresso: [número de itens analisados/total de itens]'. Exemplo: 'Analisando \"Objetivos Específicos\" - Progresso: [3/21]'.",
+                "2. Exibição do conteúdo: Após o aviso de início, exiba ao usuário o conteúdo integral do campo que será avaliado.",
+                "3. Análise detalhada: Analise e avalie o conteúdo do campo, apresentando ao usuário uma lista clara de problemas encontrados, sugestões de melhoria e correções necessárias.",
+                "4. Solicitação de informações adicionais: Se o campo não cumprir integralmente os critérios de avaliação, solicite ao usuário mais informações, esclarecimentos ou permissão para buscar informações externas (quando aplicável).",
+                "5. Aplicação de melhorias: Após a avaliação, pergunte ao usuário se deseja que o chatbot aplique as melhorias sugeridas ou se prefere excluir o campo do plano de trabalho. Só realize a reescrita caso o usuário autorize.",
+                "6. Padrão técnico e alinhamento ao edital: Todas as sugestões, correções ou reescritas devem ser formuladas utilizando linguagem técnica, objetiva e alinhada ao edital.",
+                "7. Score de qualidade: Para cada critério de avaliação do campo, avalie o grau de conformidade baseado nos exemplos, template e características do campo. Calcule o score individual de cada critério e utilize os scores dos critérios para compor o score de qualidade geral do campo.",
+                "8. Avaliação completa dos critérios: Realize a avaliação de todos os critérios de avaliação detalhados para o campo, sem omissões.",
+                "9. Diagnóstico completo: No fluxo de diagnóstico, a IA deve executar todas as análises e avaliações detalhadas para cada campo do bloco, seguindo os mesmos padrões do fluxo de revisão do plano de trabalho."
+              ],
+            "criterios_comuns": [
+                {
+                    "criterio": "Critério padrão 1 para o bloco.",
+                    "peso_por_campo": 1.0
+                },
+                {
+                    "criterio": "Critério padrão 2 para o bloco.",
+                    "peso_por_campo": 0.7
+                }
+            ],
+            "campos": {
+                "nome_do_campo_snake_case": {
+                    "id": "ID_PADRAO_CAMPO",
+                    "descricao": "Descrição padrão do propósito e conteúdo esperado para este campo.",
+                    "criterios_campo": [
+                        {
+                            "criterio": "Critério padrão 1 para o campo.",
+                            "peso": 1.0
+                        },
+                        {
+                            "criterio": "Critério padrão 2 para o campo.",
+                            "peso": 0.8
+                        }
+                    ],
+                    "caracteristicas": {
+                        "estilo_e_linguagem": {
+                            "linguagem": "formal",
+                            "tom": "neutro"
+                        },
+                        "tamanho_campo": {
+                            "minimo_caracteres": 10,
+                            "maximo_caracteres": 255
+                        }
+                    },
+                    "template": "Modelo padrão de apresentação para o campo.",
+                    "exemplos": [
+                        "Exemplo padrão 1.",
+                        "Exemplo padrão 2."
+                    ],
+                    "instrucoes_ia": [
+                        "Instrução padrão 1 para IA do campo.",
+                        "Instrução padrão 2 para IA do campo."
+                    ]
+                }
+            }
+        }
+    ]
+}

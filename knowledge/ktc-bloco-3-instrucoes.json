@@ -1,0 +1,228 @@
+{
+  "metadata": {
+    "tipo_arquivo": "instrucoes",
+    "finalidade": "Bloco 3 - Instruções e critérios para preenchimento do plano de trabalho Tecnova III-PR",
+    "versao": "1.0",
+    "status": "oficial",
+    "origem": "Kepha Revisor - Tecnova III PR",
+    "arquivo": "ktc-bloco-3-instrucoes.yml",
+    "descricao_arquivo": "Instruções detalhadas para preenchimento e revisão dos campos do Bloco 3 – Grau de Inovação, Complexidade Tecnológica e Viabilidade de Execução, conforme edital Tecnova III-PR. Inclui critérios de avaliação, exemplos, templates, orientações de IA e limites de caracteres.",
+    "autor": "Chico Alff",
+    "email_autor": "francilvio@gmail.com",
+    "data_ultima_edicao": "2025-06-12 14:15:00",
+    "nome_do_bloco_detalhado": "3 - Grau de Inovação, Complexidade Tecnológica e Viabilidade de Execução",
+    "referencia_edital": "Tecnova III-PR 05/2025",
+    "versao_bloco": "1.0",
+    "estrutura_aprovada": true
+  },
+  "blocos": [
+    {
+      "nome_do_bloco": "3 - Grau de Inovação, Complexidade Tecnológica e Viabilidade de Execução",
+      "instrucoes_ia_bloco": [
+        "Para cada campo do bloco 3, siga este fluxo padrão:",
+        "1. Exiba o conteúdo integral do campo ao usuário.",
+        "2. Avalie tecnicamente se o conteúdo atende aos critérios específicos do campo (formato, consistência, dados obrigatórios, etc.), com base no edital.",
+        "3. Se correto, siga para o próximo campo sem pedir confirmação.",
+        "4. Se encontrar erro, ausência de informação ou inconsistência, aponte os problemas, sugira melhorias/correções, mantendo sempre linguagem técnica, objetiva e alinhada ao edital.",
+        "5. Solicite esclarecimento ou documentação complementar ao usuário se necessário.",
+        "6. Pergunte ao usuário se deseja aplicar as melhorias sugeridas ou excluir o campo; só reescreva/exclua se autorizado.",
+        "7. Mantenha coerência e fundamentação entre todos os campos deste bloco.",
+        "Repita esse fluxo para todos os campos do bloco."
+      ],
+      "criterios_comuns": [
+        "Manter linguagem formal, objetiva, clara e fundamentada em referências técnicas e legais.",
+        "Respeitar limites mínimos e máximos de caracteres definidos no edital.",
+        "Fundamentar afirmações em dados, leis, manuais ou documentos sempre que possível.",
+        "Apresentar exemplos e justificativas consistentes com o grau de inovação, TRL, mercado, concorrência e benefícios.",
+        "Garantir coerência entre todos os campos do bloco."
+      ],
+      "campos": [
+        {
+          "id": "3.1",
+          "nome_do_campo": "grau_de_inovacao",
+          "descricao": "Descrever as características inovadoras e diferenciais competitivos da solução proposta, explicando a intensidade e tipo de inovação (incremental, radical, disruptiva), fundamentando-se em referências legais, conceituais ou de mercado. Relacionar com Lei de Inovação, Manuais de Oslo/Frascati, conceitos de inovação tecnológica.",
+          "criterios_campo": [
+            {"criterio": "Caracterizar claramente o tipo e grau de inovação (incremental, radical, disruptiva).", "score": 0.5},
+            {"criterio": "Apresentar fundamentos legais/conceituais (ex: Lei de Inovação, Manuais de Oslo/Frascati).", "score": 0.5},
+            {"criterio": "Explicar diferencial competitivo e originalidade.", "score": 0.5}
+          ],
+          "caracteristicas": {
+            "tipo_do_campo": "texto corrido técnico",
+            "linguagem": "técnica e fundamentada",
+            "tom": "analítico e argumentativo",
+            "publico_alvo": "avaliadores de inovação e agentes de fomento",
+            "tamanho_campo": {"minimo": "1000", "maximo": "4000"},
+            "elementos_de_formatacao": {
+              "tipo_do_elemento": "Texto corrido",
+              "detalhes": "Parágrafos detalhados, citações legais, dados comparativos, referências conceituais e exemplos reais."
+            }
+          },
+          "template": "[Texto detalhando o grau de inovação, tipo, intensidade, fundamento legal/conceitual e diferencial competitivo]",
+          "exemplos": [
+            "A solução propõe uma inovação incremental baseada em automação de processos que, fundamentada pela Lei nº 10.973/2004 e Manual de Oslo, supera o estado da arte nacional.",
+            "Trata-se de uma inovação radical, sem equivalentes no Brasil, conforme pesquisa de mercado e análise de concorrentes (apresente dados/fonte)."
+          ],
+          "instrucoes_ia": [
+            "Solicite fundamentação legal/conceitual sempre que não houver citação.",
+            "Se o diferencial competitivo não estiver claro, pedir exemplo prático ou dado comparativo.",
+            "Verifique se está alinhado ao tema prioritário e ao restante do projeto."
+          ]
+        },
+        {
+          "id": "3.2",
+          "nome_do_campo": "complexidade_tecnologica",
+          "descricao": "Descrever o desenvolvimento técnico da solução, destacando desafios e riscos tecnológicos, detalhando as estratégias de mitigação. Evidenciar as competências necessárias, dificuldades previstas e barreiras técnicas.",
+          "criterios_campo": [
+            {"criterio": "Apresentar os principais desafios e riscos tecnológicos envolvidos.", "score": 0.5},
+            {"criterio": "Descrever estratégias de mitigação de riscos e dificuldades técnicas.", "score": 0.5},
+            {"criterio": "Indicar as competências técnicas necessárias para execução.", "score": 0.5}
+          ],
+          "caracteristicas": {
+            "tipo_do_campo": "texto corrido técnico",
+            "linguagem": "técnica",
+            "tom": "realista e detalhado",
+            "publico_alvo": "avaliadores técnicos",
+            "tamanho_campo": {"minimo": "800", "maximo": "3000"},
+            "elementos_de_formatacao": {
+              "tipo_do_elemento": "Parágrafos técnicos",
+              "detalhes": "Detalhar os riscos, desafios, mitigação e perfil das competências técnicas."
+            }
+          },
+          "template": "[Texto detalhando desafios técnicos, riscos, barreiras, mitigação e competências]",
+          "exemplos": [
+            "O desenvolvimento do módulo de IA apresenta risco elevado de falha de generalização. A estratégia de mitigação inclui validação cruzada com três bases distintas e revisões de código semanais.",
+            "Barreiras técnicas incluem escalabilidade em nuvem e integração de API legada. As competências essenciais são: engenharia de dados, DevOps e cibersegurança."
+          ],
+          "instrucoes_ia": [
+            "Solicite ao usuário detalhar estratégias de mitigação para cada risco apresentado.",
+            "Peça exemplos concretos se a resposta estiver genérica.",
+            "Alinhe os desafios ao cronograma do projeto."
+          ]
+        },
+        {
+          "id": "3.3",
+          "nome_do_campo": "estagio_de_desenvolvimento",
+          "descricao": "Descrever o estágio atual da solução (protótipo, MVP, produto, tecnologia em uso, etc.), informando o nível de maturidade tecnológica (TRL atual e final esperado). Detalhar evolução tecnológica prevista, planejamento de propriedade intelectual e potencial de transferência de tecnologia.",
+          "criterios_campo": [
+            {"criterio": "Indicar TRL (atual e final) com clareza, justificando evolução prevista.", "score": 0.5},
+            {"criterio": "Descrever o estado atual do desenvolvimento (protótipo, MVP, produto).", "score": 0.5},
+            {"criterio": "Indicar planos para proteção da PI e transferência de tecnologia.", "score": 0.5}
+          ],
+          "caracteristicas": {
+            "tipo_do_campo": "texto corrido técnico",
+            "linguagem": "técnica",
+            "tom": "descritivo e objetivo",
+            "publico_alvo": "especialistas e avaliadores de inovação",
+            "tamanho_campo": {"minimo": "500", "maximo": "2000"},
+            "elementos_de_formatacao": {
+              "tipo_do_elemento": "Parágrafo técnico",
+              "detalhes": "Apontar o estágio usando escala TRL (Technology Readiness Level), planejamento de PI e possibilidades de transferência."
+            }
+          },
+          "template": "[Texto detalhando estágio, TRL, PI, potencial de transferência]",
+          "exemplos": [
+            "Atualmente em TRL 4 (validação em ambiente de laboratório). Ao final do projeto, espera-se atingir TRL 7 (demonstração de protótipo em ambiente operacional). O depósito de pedido de patente está previsto para a fase intermediária.",
+            "O produto encontra-se em fase de prototipagem com TRL 5 e prevê-se avanço para TRL 8, incluindo registro de marca e acordos para transferência."
+          ],
+          "instrucoes_ia": [
+            "Solicite documentação ou plano de PI quando aplicável.",
+            "Peça esclarecimento se o estágio não for justificado de acordo com a escala TRL."
+          ]
+        },
+        {
+          "id": "3.4",
+          "nome_do_campo": "viabilidade_mercadologica",
+          "descricao": "Descrever o mercado potencial do produto/processo, incluindo TAM/SAM/SOM, principais clientes e concorrentes, vantagens competitivas, estratégias de promoção, venda e distribuição, processo de venda e entrega.",
+          "criterios_campo": [
+            {"criterio": "Caracterizar claramente o mercado alvo, segmentos (TAM/SAM/SOM), clientes e concorrentes.", "score": 0.5},
+            {"criterio": "Descrever vantagens competitivas e estratégias de promoção, venda e entrega.", "score": 0.5}
+          ],
+          "caracteristicas": {
+            "tipo_do_campo": "texto corrido técnico",
+            "linguagem": "técnica e mercadológica",
+            "tom": "analítico e estratégico",
+            "publico_alvo": "avaliadores de negócios e inovação",
+            "tamanho_campo": {"minimo": "800", "maximo": "3000"},
+            "elementos_de_formatacao": {
+              "tipo_do_elemento": "Texto estruturado",
+              "detalhes": "Apresentar dados de mercado (TAM/SAM/SOM), análise da concorrência e diferenciais do projeto."
+            }
+          },
+          "template": "[Texto detalhando mercado, clientes, concorrentes, diferenciais e estratégias]",
+          "exemplos": [
+            "O mercado-alvo (TAM) estimado é de R$ 250 milhões anuais, dos quais R$ 30 milhões são acessíveis (SAM) e R$ 4 milhões representam o SOM inicial. O principal concorrente é a startup X, mas nossa solução oferece redução de custos de 30% e integração superior.",
+            "A estratégia de venda envolve canais digitais, feiras setoriais e parceria com distribuidores locais. O processo de entrega é realizado por integração logística própria."
+          ],
+          "instrucoes_ia": [
+            "Peça ajuste se faltar dados concretos de mercado ou diferenciais claros.",
+            "Solicite que os dados de TAM/SAM/SOM sejam sempre justificados."
+          ]
+        },
+        {
+          "id": "3.5",
+          "nome_do_campo": "resultados_esperados",
+          "descricao": "Listar os resultados e benefícios esperados do projeto nos aspectos social, econômico, ambiental e técnico, bem como outros resultados relevantes (quantidade, tipos, destaque para o principal).",
+          "criterios_campo": [
+            {"criterio": "Apresentar pelo menos um resultado esperado para cada aspecto: social, econômico, ambiental e técnico.", "score": 0.5},
+            {"criterio": "Diferenciar resultados diretos e indiretos, quantitativos e qualitativos.", "score": 0.5},
+            {"criterio": "Indicar o principal resultado esperado e sua justificativa.", "score": 0.5}
+          ],
+          "caracteristicas": {
+            "tipo_do_campo": "lista estruturada",
+            "linguagem": "técnica",
+            "tom": "analítico",
+            "publico_alvo": "avaliadores multidisciplinares",
+            "tamanho_campo": {"minimo": "5 itens", "maximo": "12 itens"},
+            "elementos_de_formatacao": {
+              "tipo_do_elemento": "Lista estruturada",
+              "detalhes": "Dividir os resultados por tipo (social, econômico, ambiental, técnico) e destacar o principal."
+            }
+          },
+          "template": "- [Tipo de resultado]: [Descrição resumida e métrica]",
+          "exemplos": [
+            "- Social: Geração de 30 empregos diretos até o 3º ano.",
+            "- Econômico: Aumento de 20% no faturamento do setor alvo.",
+            "- Ambiental: Redução de 50 toneladas/ano de emissão de CO2.",
+            "- Técnico: Desenvolvimento de solução inédita com TRL 7.",
+            "- Principal: Viabilização de exportação para 2 novos mercados-alvo."
+          ],
+          "instrucoes_ia": [
+            "Solicite ajuste caso não haja resultados para todos os aspectos exigidos.",
+            "Se não houver destaque para resultado principal, solicitar ajuste."
+          ]
+        },
+        {
+          "id": "3.6",
+          "nome_do_campo": "aspectos_eticos_e_infraestrutura",
+          "descricao": "Descrever os aspectos éticos, de biossegurança (quando aplicável), e a infraestrutura disponível para execução do projeto. Incluir menção a boas práticas, licenças, autorizações necessárias, e detalhar os recursos físicos, laboratoriais, tecnológicos e de pessoal.",
+          "criterios_campo": [
+            {"criterio": "Apresentar aspectos éticos e de biossegurança de forma clara, destacando boas práticas.", "score": 0.5},
+            {"criterio": "Descrever licenças, autorizações e políticas institucionais pertinentes.", "score": 0.5},
+            {"criterio": "Detalhar infraestrutura física, laboratorial, tecnológica e de pessoal.", "score": 0.5}
+          ],
+          "caracteristicas": {
+            "tipo_do_campo": "texto corrido técnico",
+            "linguagem": "formal e técnica",
+            "tom": "objetivo",
+            "publico_alvo": "analistas e avaliadores institucionais",
+            "tamanho_campo": {"minimo": "500", "maximo": "2000"},
+            "elementos_de_formatacao": {
+              "tipo_do_elemento": "Parágrafos detalhados",
+              "detalhes": "Separar ética/biossegurança e infraestrutura. Citar recursos institucionais, autorizações, protocolos e boas práticas."
+            }
+          },
+          "template": "[Texto detalhando aspectos éticos, biossegurança, licenças, infraestrutura e equipe]",
+          "exemplos": [
+            "O projeto adota protocolo de ética aprovado pelo Comitê de Ética em Pesquisa, número CAE 123456. As instalações incluem laboratório de microbiologia, servidores de alta capacidade e equipe qualificada. Possui licença ambiental válida até 2027.",
+            "Não há manipulação de organismos geneticamente modificados, não sendo exigida certificação de biossegurança. Todos os dados pessoais serão tratados conforme LGPD."
+          ],
+          "instrucoes_ia": [
+            "Solicite documentação complementar se houver menção a licenças, autorizações ou protocolos.",
+            "Se faltar infraestrutura relevante, sugerir complemento.",
+            "Para projetos que envolvam seres humanos, animais ou OGMs, reforçar exigência de aprovação ética."
+          ]
+        }
+      ]
+    }
+  ]
+}

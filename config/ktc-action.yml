@@ -1,0 +1,122 @@
+openapi: 3.1.0
+info:
+  title: Obter Índice e Instruções de Blocos KTC
+  description: Endpoints que retornam o índice e as instruções detalhadas dos blocos do KTC para uso interno no Custom GPT.
+  version: "1.0"
+servers:
+  - url: https://productnauta.com
+
+paths:
+  /revisor/ktc-blocos-0-indice.json:
+    get:
+      operationId: getIndiceBlocos
+      summary: Retorna o índice de blocos KTC
+      responses:
+        '200':
+          description: Lista de blocos e metadados
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: integer
+                    nome_do_bloco:
+                      type: string
+                    total_de_campos:
+                      type: integer
+                    nome_arquivo_instrucoes:
+                      type: string
+
+  /revisor/ktc-bloco-1-instrucoes.json:
+    get:
+      operationId: getBlock1
+      summary: Arquivo com instruções detalhadas do bloco 1.
+      responses:
+        '200':
+          description: Instruções detalhadas do Bloco 1
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+
+  /revisor/ktc-bloco-2-instrucoes.json:
+    get:
+      operationId: getBlock2
+      summary: Arquivo com instruções detalhadas do bloco 2.
+      responses:
+        '200':
+          description: Instruções detalhadas do Bloco 2
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+
+  /revisor/ktc-bloco-3-instrucoes.json:
+    get:
+      operationId: getBlock3
+      summary: Arquivo com instruções detalhadas do bloco 3.
+      responses:
+        '200':
+          description: Instruções detalhadas do Bloco 3
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+
+  /revisor/ktc-flow-diagnostic.json:
+    get:
+      operationId: getFlowDiagnostic
+      summary: Arquivo com instruções detalhadas do fluxo de diagnóstico do plano de trabalho.
+      responses:
+        '200':
+          description: Instruções detalhadas do fluxo de diagnóstico do plano de trabalho
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+
+  /revisor/ktc-flow-review.json:
+    get:
+      operationId: getFlowReview
+      summary: Arquivo com instruções detalhadas do fluxo de revisão do plano de trabalho.
+      responses:
+        '200':
+          description: Instruções detalhadas do fluxo de revisão do plano de trabalho
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+
+  /revisor/ktc-flow-exemplos.json:
+    get:
+      operationId: getFlowExemples
+      summary: Arquivo com exemplos de preenchimento de campos descritivos, complexos e de grande tamanho.
+      responses:
+        '200':
+          description: Exemplos de preenchimento de campos descritivos, complexos e de grande tamanho
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+
+  /revisor/ktc-config-schema.json:
+    get:
+      operationId: getConfigSchema
+      summary: Schema detalhado dos arquivos de instruções, características, critérios, exemplos e instruções que devem ser utilizadas pelo modelo de inteligência artificial.
+      responses:
+        '200':
+          description: Schema detalhado dos arquivos de instruções, características, critérios, exemplos e instruções
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
