@@ -130,10 +130,10 @@
             "state": {
               "type": "json",
               "state": {
-                "file": "agent/Unknown.json"
+                "file": "agent/Ktc agent.json"
               },
               "icon": "lucide-file",
-              "title": "Unknown"
+              "title": "Ktc agent"
             }
           },
           {
@@ -281,7 +281,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "agent/Unknown.json",
+            "file": "agent/Ktc agent.json",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -345,7 +345,7 @@
   "active": "9dea23b375e4c5e3",
   "lastOpenFiles": [
     "workflow/diagnostic/ktc-score.json",
-    "agent/Unknown.json",
+    "agent/Ktc agent.json",
     "workflow/diagnostic/ktc-blocos-0-indice.json",
     "Unknown.json",
     "ktc fluxo 2.md",
