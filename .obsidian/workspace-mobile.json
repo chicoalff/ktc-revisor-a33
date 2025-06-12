@@ -34,9 +34,19 @@
               "icon": "lucide-file",
               "title": "Untitled"
             }
+          },
+          {
+            "id": "8694731dc418583d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -180,10 +190,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "2b472340ef4d1a29",
+  "active": "8694731dc418583d",
   "lastOpenFiles": [
-    "workflow/examples/ktc-exemplo-plano.md",
     "Untitled.md",
+    "workflow/examples/ktc-exemplo-plano.md",
     "workflow/examples/Unknown.txt",
     "workflow/examples/Unknown.json",
     "readme.md",
