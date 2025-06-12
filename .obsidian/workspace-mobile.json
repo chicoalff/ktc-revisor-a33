@@ -39,10 +39,17 @@
             "id": "0defb9791d23e2e7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "canvas",
+              "state": {
+                "file": "workflow/Untitled.canvas",
+                "viewState": {
+                  "x": 0.5,
+                  "y": 213,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
             }
           }
         ],
@@ -121,7 +128,7 @@
         }
       }
     ],
-    "currentTab": 4
+    "currentTab": 0
   },
   "right": {
     "id": "53b719668e360e49",
@@ -191,6 +198,7 @@
   },
   "active": "0defb9791d23e2e7",
   "lastOpenFiles": [
+    "workflow/Untitled.canvas",
     "readme.md"
   ]
 }
