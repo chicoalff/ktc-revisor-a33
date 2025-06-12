@@ -1,0 +1,106 @@
+{
+  "nome_arquivo": "ktc-revisao.json",
+  "versao": "1.0",
+  "data_ultima_atualizacao": "2025-06-12",
+  "autor": "Chico Alff",
+  "descricao": "Fluxo completo e especificação dos cálculos de score e lógica de corte para avaliação e recomendação de melhoria dos campos no processo de revisão de plano de trabalho - Tecnova III PR.",
+
+  "fluxo_revisao": {
+    "etapas": [
+      {
+        "nome": "Solicitação de Revisão",
+        "acoes": [
+          "Exibir menu principal (Revisar plano de trabalho, Diagnóstico, Ajuda, Voltar)",
+          "Solicitar o envio do arquivo do plano de trabalho (.pdf, .docx, .md)"
+        ]
+      },
+      {
+        "nome": "Processamento Inicial do Arquivo",
+        "acoes": [
+          "Ler e memorizar 100% do conteúdo do arquivo",
+          "Detectar e extrair: nome do arquivo, quantidade de palavras, nome da empresa/startup, projeto, cidade/UF, vertical",
+          "Converter para Markdown para análise estrutural",
+          "Exibir mensagem confirmando leitura e apresentando dados extraídos",
+          "Perguntar ao usuário se deseja continuar com a revisão"
+        ]
+      },
+      {
+        "nome": "Seleção do Modo de Revisão",
+        "acoes": [
+          "Exibir menu: Analisar plano completo, Selecionar bloco, Exibir diagnóstico, Ajuda, Voltar",
+          "Se selecionar 'Selecionar bloco': listar todos os blocos disponíveis a partir do índice",
+          "Se selecionar campo específico: listar todos os campos do bloco selecionado"
+        ]
+      },
+      {
+        "nome": "Execução da Revisão (por plano, bloco ou campo)",
+        "acoes": [
+          "Para cada campo do escopo selecionado:",
+          "Carregar instruções, critérios, templates, exemplos, estilo e faixa de tamanho do arquivo de bloco/campo e score",
+          "Avaliar aderência do preenchimento real a todos os critérios (campo obrigatório, formato, linguagem, tamanho, exemplos)",
+          "Calcular scores (ver especificação abaixo)",
+          "Classificar a qualidade (ver escalas)",
+          "Se score_final < 0,80: Exibir sugestão de melhoria detalhada e fundamentada",
+          "Perguntar ao usuário: Aceitar sugestão, Expandir resposta, Fornecer fonte externa, Descartar sugestão",
+          "Se aceitar, armazenar nova versão do campo"
+        ]
+      },
+      {
+        "nome": "Relatórios e Fechamento",
+        "acoes": [
+          "Para cada bloco, exibir tabela com: Campo, Qualidade, Score de aderência, Score de conformidade, Score final, Sugestão (quando aplicável)",
+          "Exibir no cabeçalho: cidade, estado, vertical do projeto",
+          "Calcular e exibir score médio do bloco e global do plano",
+          "Destacar blocos/campos classificados como Regular, Ruim ou Inadequado",
+          "Recomendar revisão manual dos pontos críticos",
+          "Oferecer exportação do relatório completo (Markdown/PDF)",
+          "Manter o histórico de decisões e versões no contexto do agente para rastreabilidade"
+        ]
+      }
+    ]
+  },
+
+  "especificacao_score": {
+    "escalas_criterio": [
+      { "valor": 1.00, "descricao": "Atende totalmente" },
+      { "valor": 0.75, "descricao": "Atende quase totalmente" },
+      { "valor": 0.50, "descricao": "Atende parcialmente" },
+      { "valor": 0.25, "descricao": "Atende pouco" },
+      { "valor": 0.00, "descricao": "Não atende" }
+    ],
+    "calculo_score_aderencia": "score_aderencia = (soma de (nota_criterio × peso_criterio)) / (soma dos pesos dos critérios)",
+    "calculo_score_conformidade": "score_conformidade = média simples dos fatores: template, exemplos, estilo/linguagem, tamanho",
+    "calculo_score_final": "score_final = (score_aderencia × 0,7) + (score_conformidade × 0,3)",
+    "lógica_de_corte": {
+      "corte_sugestao_melhoria": 0.80,
+      "regra": "Sempre que score_final < 0,80: classifique o campo como 'necessita melhoria' e obrigatoriamente gere sugestão fundamentada baseada em critérios, exemplos e templates.",
+      "ação_usuario": [
+        "Aceitar como definitivo",
+        "Expandir resposta",
+        "Fornecer fonte externa para detalhamento",
+        "Descartar sugestão"
+      ]
+    },
+    "classificacao_final": [
+      { "intervalo": "0.90–1.00", "descricao": "Excelente" },
+      { "intervalo": "0.75–0.89", "descricao": "Muito bom" },
+      { "intervalo": "0.50–0.74", "descricao": "Regular" },
+      { "intervalo": "0.25–0.49", "descricao": "Ruim" },
+      { "intervalo": "0.00–0.24", "descricao": "Inadequado" }
+    ]
+  },
+
+  "resumo_operacional": [
+    "Avalie todos os critérios e fatores do campo",
+    "Calcule score_aderencia (média ponderada dos critérios)",
+    "Calcule score_conformidade (média dos fatores de texto/estilo/exemplo)",
+    "Calcule score_final",
+    "Se score_final < 0,80, sugira melhoria e registre ação conforme decisão do usuário"
+  ],
+
+  "observacoes": [
+    "Todos os valores de corte, pesos, exemplos de cálculo e escalas podem ser ajustados conforme as definições detalhadas nos arquivos de instrução e score do projeto (ex: ktc-score.json).",
+    "Nenhuma etapa pode ser removida, alterada ou ignorada em produção.",
+    "Todo processo é auditável, rastreável e documentado em histórico persistente."
+  ]
+}

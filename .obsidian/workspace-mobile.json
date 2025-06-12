@@ -142,10 +142,10 @@
             "state": {
               "type": "json",
               "state": {
-                "file": "agent/Unknown.json"
+                "file": "agent/ktc-revisao.json.json"
               },
               "icon": "lucide-file",
-              "title": "Unknown"
+              "title": "ktc-revisao.json"
             }
           },
           {
@@ -293,7 +293,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "agent/Unknown.json",
+            "file": "agent/ktc-revisao.json.json",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -357,7 +357,7 @@
   "active": "93e089f31eae2212",
   "lastOpenFiles": [
     "agent/Ktc agent.json",
-    "agent/Unknown.json",
+    "agent/ktc-revisao.json.json",
     "workflow/diagnostic/ktc-score.json",
     "workflow/diagnostic/ktc-blocos-0-indice.json",
     "Unknown.json",
