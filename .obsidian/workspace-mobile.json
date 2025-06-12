@@ -11,29 +11,18 @@
             "id": "893eae668901fdfa",
             "type": "leaf",
             "state": {
-              "type": "json",
+              "type": "markdown",
               "state": {
-                "file": "knowledge/ktc-workplan-exemple.json"
+                "file": "ktc-flow-diagnostic.md.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "title": "ktc-flow-diagnostic.md"
             },
             "group": "fd832841014da486"
-          },
-          {
-            "id": "0f960543904c3b12",
-            "type": "leaf",
-            "state": {
-              "type": "json",
-              "state": {
-                "file": "workflow/diagnostic/ktc-flow-diagnostico.json"
-              },
-              "icon": "lucide-file",
-              "title": "ktc-flow-diagnostico"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "ce995e2002633ffa",
@@ -43,37 +32,14 @@
             "id": "6862caa301c03105",
             "type": "leaf",
             "state": {
-              "type": "localgraph",
+              "type": "markdown",
               "state": {
-                "file": "knowledge/ktc-workplan-exemple.json",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1,
-                  "close": false
-                }
+                "file": "ktc-flow-diagnostic.md.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "ktc-flow-diagnostic.md"
             },
             "group": "fd832841014da486"
           }
@@ -239,18 +205,18 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "0f960543904c3b12",
+  "active": "893eae668901fdfa",
   "lastOpenFiles": [
+    "knowledge/ktc-workplan-exemple.json",
+    "workflow/diagnostic/ktc-flow-diagnostico.json",
     "workflow/diagnostic/ktc-schema-blocos.json",
     "workflow/diagnostic/ktc-flow-diagnostico2.json",
-    "workflow/diagnostic/ktc-flow-diagnostico.json",
     "sync.php.md",
     "ktc-flow-diagnostic.md.md",
     "workflow/diagnostic/ktc-bloco-2-instrucoes.json",
     "workflow/diagnostic/ktc-bloco-1-instrucoes.json",
     "Untitled.md",
     "workflow/diagnostic/ktc-blocos-0-estrutura.md",
-    "knowledge/ktc-workplan-exemple.json",
     "workflow/diagnostic.zip",
     "agent/ktc-1-revisor-engine-v0.md",
     "gemini-scribe/workflow_diagnostic_ktc-flow-diagnostico.json.md",
