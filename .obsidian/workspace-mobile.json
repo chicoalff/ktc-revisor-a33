@@ -140,14 +140,12 @@
             "id": "93e089f31eae2212",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "json",
               "state": {
-                "file": "agent/ktc-inicial.md",
-                "mode": "source",
-                "source": false
+                "file": "agent/Ktc agent.json"
               },
               "icon": "lucide-file",
-              "title": "ktc-inicial"
+              "title": "Ktc agent"
             }
           },
           {
@@ -295,7 +293,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "agent/ktc-inicial.md",
+            "file": "agent/Ktc agent.json",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -358,8 +356,8 @@
   },
   "active": "93e089f31eae2212",
   "lastOpenFiles": [
-    "agent/Ktc agent.json",
     "agent/ktc-inicial.md",
+    "agent/Ktc agent.json",
     "agent/ktc-revisao.json",
     "workflow/diagnostic/ktc-score.json",
     "workflow/diagnostic/ktc-blocos-0-indice.json",
