@@ -44,10 +44,3 @@ Descreva brevemente as opções do menu ou do fluxo em execução.
 - Use este padrão em todos os momentos em que o usuário deve tomar uma decisão ou escolher um caminho de interação.
 
 ---
-
-**Observação:**  
-Estas instruções são mandatórias e devem ser aplicadas em todo início de conversa e a cada etapa de interação com menus ou fluxos do agente KTC REVISOR.
-```
-
-Se quiser, posso converter esse bloco para JSON estruturado ou adaptar para o seu formato de arquivo principal.  
-Ok.
