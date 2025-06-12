@@ -13,10 +13,10 @@
             "state": {
               "type": "json",
               "state": {
-                "file": "knowledge/ktc-workplan-azagros.json"
+                "file": "knowledge/ktc-workplan-exemple.json"
               },
               "icon": "lucide-file",
-              "title": "ktc-workplan-azagros"
+              "title": "ktc-workplan-exemple"
             },
             "group": "fd832841014da486"
           }
@@ -32,7 +32,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "knowledge/ktc-workplan-azagros.json",
+                "file": "knowledge/ktc-workplan-exemple.json",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -151,7 +151,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "readme.md",
+            "file": "knowledge/ktc-workplan-exemple.json",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -210,8 +210,10 @@
   },
   "active": "893eae668901fdfa",
   "lastOpenFiles": [
+    "agent/ktc-1-revisor-engine-v0.md",
+    "knowledge/ktc-workplan-exemple.json",
+    "gemini-scribe/workflow_diagnostic_ktc-flow-diagnostico.json.md",
     "Untitled.md",
-    "knowledge/ktc-workplan-azagros.json",
     "workflow/diagnostic/ktc-config-schema.json",
     "workflow/examples/ktc-exemplo-plano.md",
     "workflow/examples/Unknown.txt",
@@ -219,7 +221,6 @@
     "readme.md",
     "workflow/diagnostic/ktc-flow-diagnostico.json",
     "workflow/examples",
-    "gemini-scribe/workflow_diagnostic_ktc-flow-diagnostico.json.md",
     "gemini-scribe",
     "workflow/diagnostic/ktc-blocos-0-indice.json",
     "workflow/Untitled.canvas"
