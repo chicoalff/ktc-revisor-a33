@@ -38,10 +38,10 @@
             "state": {
               "type": "json",
               "state": {
-                "file": "workflow/diagnostic/Unknown.json"
+                "file": "workflow/diagnostic/ktc-flow-diagnostico.json"
               },
               "icon": "lucide-file",
-              "title": "Unknown"
+              "title": "ktc-flow-diagnostico"
             }
           }
         ],
@@ -190,7 +190,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "workflow/diagnostic/Unknown.json",
+            "file": "workflow/diagnostic/ktc-flow-diagnostico.json",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -249,12 +249,12 @@
   },
   "active": "3d73b930164c3485",
   "lastOpenFiles": [
+    "workflow/diagnostic/ktc-flow-diagnostico2.json",
     "ktc-flow-diagnostic.md.md",
     "workflow/diagnostic/ktc-flow-diagnostico.json",
     "workflow/diagnostic/ktc-bloco-2-instrucoes.json",
     "workflow/diagnostic/ktc-bloco-1-instrucoes.json",
     "Untitled.md",
-    "workflow/diagnostic/Unknown.json",
     "workflow/diagnostic/ktc-blocos-0-estrutura.md",
     "knowledge/ktc-workplan-exemple.json",
     "workflow/diagnostic.zip",
