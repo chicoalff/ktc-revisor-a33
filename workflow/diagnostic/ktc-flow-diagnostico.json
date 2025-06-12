@@ -1,5 +1,3 @@
-Segue a conversão integral do prompt revisado para JSON estruturado, pronto para treinamento de modelos ChatGPT. Nenhum conteúdo foi omitido, resumido ou alterado:
-
 {
   "agent": {
     "name": "KTC REVISOR - COPILOT TECNOVA",
@@ -194,6 +192,3 @@ Segue a conversão integral do prompt revisado para JSON estruturado, pronto par
     ]
   }
 }
-
-Se precisar que eu converta esse JSON para um arquivo, basta pedir. Ok.
-
