@@ -7,7 +7,7 @@ $paths = [
 ];
 
 // Pasta de destino local
-$destDir = __DIR__ . '/public_html/revisor/';
+$destDir = __DIR__ . '/';
 
 // Extensões que serão copiadas
 $allowed = ['json','yaml','yml','pdf','md'];
