@@ -29,23 +29,11 @@
                 "file": "workflow/diagnostic/ktc-flow-diagnostico.json"
               },
               "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "3d73b930164c3485",
-            "type": "leaf",
-            "state": {
-              "type": "json",
-              "state": {
-                "file": "workflow/diagnostic/ktc-flow-diagnostico.json"
-              },
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "title": "ktc-flow-diagnostico"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "ce995e2002633ffa",
@@ -243,10 +231,11 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false
+      "markdown-importer:Open format converter": false,
+      "gemini-scribe:Open Gemini Chat": false
     }
   },
-  "active": "3d73b930164c3485",
+  "active": "0f960543904c3b12",
   "lastOpenFiles": [
     "workflow/diagnostic/ktc-flow-diagnostico2.json",
     "ktc-flow-diagnostic.md.md",
