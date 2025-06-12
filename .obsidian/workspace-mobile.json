@@ -125,6 +125,18 @@
             }
           },
           {
+            "id": "9dea23b375e4c5e3",
+            "type": "leaf",
+            "state": {
+              "type": "json",
+              "state": {
+                "file": "agent/Unknown.json"
+              },
+              "icon": "lucide-file",
+              "title": "Unknown"
+            }
+          },
+          {
             "id": "0f960543904c3b12",
             "type": "leaf",
             "state": {
@@ -149,7 +161,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       },
       {
         "id": "ce995e2002633ffa",
@@ -269,7 +281,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "workflow/diagnostic/ktc-score.json",
+            "file": "agent/Unknown.json",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -330,10 +342,11 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "7ecb48fd689b2c46",
+  "active": "9dea23b375e4c5e3",
   "lastOpenFiles": [
-    "workflow/diagnostic/ktc-blocos-0-indice.json",
     "workflow/diagnostic/ktc-score.json",
+    "agent/Unknown.json",
+    "workflow/diagnostic/ktc-blocos-0-indice.json",
     "Unknown.json",
     "ktc fluxo 2.md",
     "agent/ktc-inicial.md",
@@ -356,7 +369,6 @@
     "workflow/diagnostic/ktc-bloco-2-instrucoes.json",
     "workflow/diagnostic/ktc-bloco-1-instrucoes.json",
     "Untitled.md",
-    "workflow/diagnostic.zip",
     "workflow/examples/ktc-exemplo-plano.md",
     "readme.md",
     "workflow/Untitled.canvas"
