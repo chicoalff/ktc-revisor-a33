@@ -128,8 +128,8 @@
         "state": {
           "type": "gemini-view",
           "state": {},
-          "icon": "lucide-file",
-          "title": "Plugin no longer active"
+          "icon": "sparkles",
+          "title": "Gemini Scribe"
         }
       },
       {
@@ -147,7 +147,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 4
   },
   "right": {
     "id": "53b719668e360e49",
