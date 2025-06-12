@@ -1,5 +1,6 @@
 [
   "gemini-scribe",
   "data-files-editor",
-  "prettier-format"
+  "prettier-format",
+  "obsidian-jsonifier"
 ]
