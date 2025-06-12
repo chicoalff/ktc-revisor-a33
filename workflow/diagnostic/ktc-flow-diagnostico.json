@@ -116,6 +116,7 @@
   "api_integracoes": {
     "descricao": "EndPoints da Action API para obtenção dinâmica dos arquivos oficiais de conhecimento utilizados pelo KTC REVISOR.",
     "base_url": "https://productnauta.com",
+    "execution_instructions": "Todas as chamadas para obtenção dos arquivos de configuração e instrução de blocos devem ser executadas no canal de API apropriado (getIndiceBlocos, getBlock1, getBlock2, getBlock3, etc.).",
     "rotas": [
       {
         "nome": "Índice de Blocos",
@@ -140,30 +141,6 @@
         "path": "/revisor/ktc-bloco-3-instrucoes.json",
         "operationId": "getBlock3",
         "uso": "Obtém as instruções detalhadas do bloco 3"
-      },
-      {
-        "nome": "Bloco 4 - Viabilidade Mercadológica",
-        "path": "/revisor/ktc-bloco-4-instrucoes.json",
-        "operationId": "getBlock4",
-        "uso": "Obtém as instruções detalhadas do bloco 4"
-      },
-      {
-        "nome": "Bloco 5 - Resultados Esperados",
-        "path": "/revisor/ktc-bloco-5-instrucoes.json",
-        "operationId": "getBlock5",
-        "uso": "Obtém as instruções detalhadas do bloco 5"
-      },
-      {
-        "nome": "Bloco 6 - Aspectos Éticos e Infraestrutura",
-        "path": "/revisor/ktc-bloco-6-instrucoes.json",
-        "operationId": "getBlock6",
-        "uso": "Obtém as instruções detalhadas do bloco 6"
-      },
-      {
-        "nome": "Bloco 7 - Despesas e Cronograma Financeiro",
-        "path": "/revisor/ktc-bloco-7-instrucoes.json",
-        "operationId": "getBlock7",
-        "uso": "Obtém as instruções detalhadas do bloco 7"
       },
       {
         "nome": "Fluxo de Diagnóstico",

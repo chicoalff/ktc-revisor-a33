@@ -31,21 +31,9 @@
               "icon": "lucide-file",
               "title": "ktc-flow-diagnostico"
             }
-          },
-          {
-            "id": "d961ea186be10349",
-            "type": "leaf",
-            "state": {
-              "type": "json",
-              "state": {
-                "file": "workflow/diagnostic/ktc-flow-diagnostico.json"
-              },
-              "icon": "lucide-file",
-              "title": "ktc-flow-diagnostico"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "ce995e2002633ffa",
@@ -251,7 +239,7 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "d961ea186be10349",
+  "active": "0f960543904c3b12",
   "lastOpenFiles": [
     "workflow/diagnostic/ktc-schema-blocos.json",
     "workflow/diagnostic/ktc-flow-diagnostico2.json",
