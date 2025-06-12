@@ -1,0 +1,85 @@
+metadata:
+  versao: "1.0"
+  arquivo: "ktc-indice-blocos-campos.yml"
+  descricao_arquivo: "Índice com todos os blocos e campos do plano de trabalho Tecnova III - PR, sem instruções ou ponto validações."
+  autor: "Chico Alff"
+  data_ultima_edicao: "2025-06-11"
+  instrucoes_ia: |
+    Este arquivo deve ser interpretado como um índice geral do plano de trabalho do Tecnova III - PR. 
+    Cada bloco listado contém um conjunto de campos organizados e o nome do arquivo de instruções correspondente.
+    Ao processar ou revisar qualquer campo, a IA deverá:
+    1. Localizar neste índice o bloco ao qual o campo pertence.
+    2. Identificar o valor do campo "arquivo_de_instrucoes" associado ao bloco.
+    3. Acessar o conteúdo do arquivo indicado para obter as instruções específicas, critérios de revisão, formato, estilo e exemplos válidos para aquele campo.
+    4. Não realizar inferências com base neste índice. Todas as instruções operacionais devem vir exclusivamente dos arquivos de instrução referenciados.
+
+blocos:
+  - nome_do_bloco: "1 - Dados Cadastrais"
+    arquivo_de_instrucoes: "ktc-bloco-1-instrucoes.yml"
+    campos:
+      - empresa_proponente
+      - caixa_postal
+      - receita_anual
+      - natureza_juridica
+      - atividade_economica_predominante
+      - objetivo_social
+      - historico_da_empresa
+      - instalacoes_fisicas
+      - historico_pdi
+      - politica_propriedade_intelectual
+      - ativos_propriedade_intelectual
+
+  - nome_do_bloco: "2 - Dados do Projeto"
+    arquivo_de_instrucoes: "ktc-bloco-2-instrucoes"
+    campos:
+      - titulo_do_projeto
+      - duracao_prevista
+      - periodo_previsto
+      - tema_prioritario
+      - resumo_publicavel
+      - justificativa_e_relevancia_para_a_area_de_interesse
+      - objetivo_geral
+      - objetivos_especificos
+      - metodologia
+      - equipe_tecnica
+
+  - nome_do_bloco: "3 - Grau de Inovação e Complexidade Técnica"
+    arquivo_de_instrucoes: "ktc-bloco-3-instrucoes.yml"
+    campos:
+      - grau_de_inovacao
+      - complexidade_tecnologica
+      - estagio_de_desenvolvimento
+
+  - nome_do_bloco: "4 - Viabilidade Mercadológica"
+    arquivo_de_instrucoes: "ktc-bloco-4-instrucoes.yml"
+    campos:
+      - vantagens_competitivas
+      - mercado_potencial
+      - clientes_potenciais
+      - concorrentes
+      - estrategias_promocao_venda
+      - processo_venda_entrega
+
+  - nome_do_bloco: "5 - Resultados Esperados"
+    arquivo_de_instrucoes: "ktc-bloco-5-instrucoes.yml"
+    campos:
+      - resultados_sociais
+      - resultados_economicos
+      - resultados_ambientais
+      - resultados_tecnicos
+      - outros_resultados
+
+  - nome_do_bloco: "6 - Aspectos Éticos e Infraestrutura"
+    arquivo_de_instrucoes: "ktc-bloco-6-instrucoes.yml"
+    campos:
+      - aspectos_eticos_biosseguranca
+      - infraestrutura_disponivel
+
+  - nome_do_bloco: "7 - Despesas e Cronograma Financeiro"
+    arquivo_de_instrucoes: "ktc-bloco-7-instrucoes.yml"
+    campos:
+      - plano_aplicacao_financeira
+      - classificacao_das_despesas
+      - contrapartida_da_empresa
+      - servicos_aceleracao_internacionalizacao
+      - cronograma_utilizacao_recursos

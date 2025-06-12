@@ -1,0 +1,269 @@
+metadata:
+  versao: "1.0"
+  arquivo: "ktc-bloco-2-instrucoes.yml" 
+  descricao_arquivo: "Arquivo de instruções detalhadas para preenchimento e revisão dos campos do Bloco 2 - Dados do Projeto, conforme o edital Tecnova III - PR."
+  autor: "Chico Alff"
+  data_ultima_edicao: "2025-06-11 17:00:00"
+  nome_do_bloco_detalhado: "2 - Dados do Projeto"
+
+blocos:
+  - nome_do_bloco: "2 - Dados do Projeto"
+    campos:
+      titulo_do_projeto:
+        id: "2.1"
+        descricao: "Nome e subtítulo do projeto, comunicando claramente o propósito."
+        avaliacao_e_revisao:
+          criterio_1: "Verificar se o título tem entre 10 a 20 palavras."
+          criterio_2: "Avaliar se comunica de forma clara e objetiva o escopo do projeto."
+        formato_e_caracteristicas:
+          tipo_do_campo: "descritivo"
+          estilo_e_linguagem:
+            linguagem: "acessível e objetiva"
+            tom: "inspirador e técnico"
+            publico_alvo: "avaliadores de inovação e gestores públicos"
+          estrutura:
+            tamanho_campo:
+              minimo: "10 palavras"
+              máximo: "20 palavras"
+            elementos_de_formatação:
+              tipo_do_elemento: "Texto curto"
+              detalhes: "Título principal e subtítulo separados por dois-pontos ou hífen"
+        instrucoes_ia:
+          instrucao_1: "Certifique-se de que o título seja claro, objetivo e dentro do número de palavras estabelecido."
+        template: "[Título principal]: [Subtítulo opcional]"
+        exemplos:
+          - "CertIAgro: Auditoria Rural Inteligente que Transforma Dados em Certificação e Conecta o Produtor ao Mercado Global"
+
+      duracao_prevista:
+        id: "2.2"
+        descricao: "Duração total prevista do projeto."
+        avaliacao_e_revisao:
+          criterio_1: "A duração deve estar entre 24 e 36 meses."
+        formato_e_caracteristicas:
+          tipo_do_campo: "numérico"
+          estilo_e_linguagem:
+            linguagem: "formal"
+            tom: "objetivo"
+            publico_alvo: "analistas de projeto"
+          estrutura:
+            tamanho_campo:
+              minimo: "24"
+              máximo: "36"
+            elementos_de_formatação:
+              tipo_do_elemento: "Número inteiro"
+              detalhes: "Representa a quantidade de meses de execução do projeto"
+        instrucoes_ia:
+          instrucao_1: "Validar se o valor informado está no intervalo permitido."
+        template: "Duração: [24-36] meses"
+        exemplos:
+          - "24"
+          - "30"
+
+      periodo_previsto:
+        id: "2.3"
+        descricao: "Período de início e término do projeto."
+        avaliacao_e_revisao:
+          criterio_1: "O início deve obrigatoriamente ser em maio de 2026."
+          criterio_2: "O término deve respeitar a duração prevista."
+        formato_e_caracteristicas:
+          tipo_do_campo: "descritivo"
+          estilo_e_linguagem:
+            linguagem: "formal"
+            tom: "técnico e cronológico"
+            publico_alvo: "avaliadores de planejamento"
+          estrutura:
+            tamanho_campo:
+              minimo: "20"
+              máximo: "50"
+            elementos_de_formatação:
+              tipo_do_elemento: "Texto livre com datas"
+              detalhes: "Formato esperado: Mês/Ano a Mês/Ano"
+        instrucoes_ia:
+          instrucao_1: "Validar se a data de início é Maio/2026."
+        template: "Maio/2026 a Abril/2028"
+        exemplos:
+          - "Maio/2026 a Abril/2028"
+          - "Maio/2026 a Abril/2029"
+
+      tema_prioritario:
+        id: "2.4"
+        descricao: "Tema prioritário da proposta conforme edital."
+        avaliacao_e_revisao:
+          criterio_1: "Apenas um tema deve ser selecionado."
+        formato_e_caracteristicas:
+          tipo_do_campo: "lista restrita"
+          estilo_e_linguagem:
+            linguagem: "institucional"
+            tom: "formal e objetivo"
+            publico_alvo: "órgãos de fomento"
+          estrutura:
+            tamanho_campo:
+              minimo: "1"
+              máximo: "1"
+            elementos_de_formatação:
+              tipo_do_elemento: "Seleção única"
+              detalhes: "Selecionar entre os temas do edital"
+        instrucoes_ia:
+          instrucao_1: "Validar se apenas um tema foi selecionado."
+        template: "Tema: [Nome do tema conforme edital]"
+        exemplos:
+          - "Tema: Agricultura & Agronegócio"
+          - "Tema: Biotecnologia & Saúde"
+
+      resumo_publicavel:
+        id: "2.5"
+        descricao: "Resumo público e acessível da proposta."
+        avaliacao_e_revisao:
+          criterio_1: "Limite de até 500 caracteres."
+          criterio_2: "Evitar termos técnicos excessivos."
+        formato_e_caracteristicas:
+          tipo_do_campo: "texto corrido"
+          estilo_e_linguagem:
+            linguagem: "simples"
+            tom: "didático e acessível"
+            publico_alvo: "público geral"
+          estrutura:
+            tamanho_campo:
+              minimo: "100"
+              máximo: "500"
+            elementos_de_formatação:
+              tipo_do_elemento: "Texto corrido"
+              detalhes: "Parágrafo único, linguagem clara"
+        instrucoes_ia:
+          instrucao_1: "Certifique-se de que o texto é compreensível por não-especialistas."
+        template: "[Resumo da proposta em linguagem acessível]"
+        exemplos:
+          - "Este projeto visa desenvolver uma solução inteligente para certificação rural, conectando produtores ao mercado com o uso de IA."
+
+      justificativa_e_relevancia_para_a_area_de_interesse:
+        id: "2.6"
+        descricao: "Razões técnicas e sociais que justificam o projeto."
+        avaliacao_e_revisao:
+          criterio_1: "Conter dados concretos e relação com ODS."
+          criterio_2: "Estar dentro do limite de 4.000 caracteres."
+        formato_e_caracteristicas:
+          tipo_do_campo: "texto corrido técnico"
+          estilo_e_linguagem:
+            linguagem: "técnica"
+            tom: "analítico"
+            publico_alvo: "avaliadores de mérito"
+          estrutura:
+            tamanho_campo:
+              minimo: "1000"
+              máximo: "4000"
+            elementos_de_formatação:
+              tipo_do_elemento: "Texto corrido"
+              detalhes: "Parágrafos bem estruturados com dados quantitativos sempre que possível"
+        instrucoes_ia:
+          instrucao_1: "Verificar clareza da justificativa com base nos critérios do edital e sua relação com temas estratégicos."
+        template: "[Texto técnico contendo problema, relevância e alinhamento aos ODS]"
+        exemplos:
+          - "A baixa adesão de pequenos produtores a certificações agrícolas reduz sua competitividade internacional. Este projeto visa atacar esse gargalo com uma solução acessível e inteligente, alinhada ao ODS 2 e 12."
+
+      objetivo_geral:
+        id: "2.7"
+        descricao: "Resultado principal esperado ao final do projeto."
+        avaliacao_e_revisao:
+          criterio_1: "Apontar entregável final claramente."
+          criterio_2: "Texto coerente com duração e orçamento."
+        formato_e_caracteristicas:
+          tipo_do_campo: "texto corrido"
+          estilo_e_linguagem:
+            linguagem: "técnica"
+            tom: "descritivo"
+            publico_alvo: "avaliadores do projeto"
+          estrutura:
+            tamanho_campo:
+              minimo: "500"
+              máximo: "4000"
+            elementos_de_formatação:
+              tipo_do_elemento: "Parágrafo"
+              detalhes: "Texto direto, objetivo, sem subjetividades"
+        instrucoes_ia:
+          instrucao_1: "Validar se o texto descreve claramente o resultado final esperado e as condições para sua entrega."
+        template: "[Texto com entregável principal do projeto]"
+        exemplos:
+          - "Ao final do projeto, a solução estará validada tecnicamente e pronta para produção e comercialização."
+
+      objetivos_especificos:
+        id: "2.8"
+        descricao: "Lista de metas específicas mensuráveis do projeto."
+        avaliacao_e_revisao:
+          criterio_1: "Deve conter pelo menos um objetivo a cada 6 meses."
+          criterio_2: "Deve incluir metas de aceleração e internacionalização."
+        formato_e_caracteristicas:
+          tipo_do_campo: "lista estruturada"
+          estilo_e_linguagem:
+            linguagem: "técnica"
+            tom: "objetivo"
+            publico_alvo: "gestores e avaliadores"
+          estrutura:
+            tamanho_campo:
+              minimo: "5"
+              máximo: "10"
+            elementos_de_formatação:
+              tipo_do_elemento: "Lista numerada"
+              detalhes: "Cada item com verbo no infinitivo, data/meta vinculada"
+        instrucoes_ia:
+          instrucao_1: "Certifique-se de que os objetivos sejam auditáveis, vinculados ao cronograma e usem metas SMART."
+        template: "1. Desenvolver [ação], até [mês/ano], com [indicador/critério]."
+        exemplos:
+          - "1. Concluir diagnóstico técnico e 5 entrevistas com usuários-chave até 3º mês."
+          - "2. Validar protótipo funcional com 80% das funcionalidades até 10º mês."
+
+      metodologia:
+        id: "2.9"
+        descricao: "Descrição dos métodos, etapas e ferramentas de execução do projeto."
+        avaliacao_e_revisao:
+          criterio_1: "Explicitar o modelo de desenvolvimento adotado (PMBOK, ágil, híbrido)."
+          criterio_2: "Apresentar todas as etapas do projeto com foco em entregas."
+        formato_e_caracteristicas:
+          tipo_do_campo: "texto corrido técnico"
+          estilo_e_linguagem:
+            linguagem: "técnica e estruturada"
+            tom: "profissional"
+            publico_alvo: "avaliadores técnicos"
+          estrutura:
+            tamanho_campo:
+              minimo: "1000"
+              máximo: "4000"
+            elementos_de_formatação:
+              tipo_do_elemento: "Texto corrido"
+              detalhes: "Divisão por grupos de processo, entrega e ferramentas"
+        instrucoes_ia:
+          instrucao_1: "Verificar se a metodologia descreve claramente como o projeto será conduzido até os resultados."
+        template: "[Texto com estrutura PMBOK ou método equivalente, detalhando atividades, etapas, entregas e ferramentas]"
+        exemplos:
+          - "O projeto seguirá a abordagem ágil, com sprints bimestrais, entregas contínuas e revisão técnica a cada marco de 6 meses."
+
+      equipe_tecnica:
+        id: "2.10"
+        descricao: "Descrição da equipe responsável pela execução do projeto."
+        avaliacao_e_revisao:
+          criterio_1: "Apresentar nome, vínculo, função e formação de cada membro."
+          criterio_2: "Incluir as atividades detalhadas a serem desempenhadas."
+        formato_e_caracteristicas:
+          tipo_do_campo: "lista estruturada"
+          estilo_e_linguagem:
+            linguagem: "técnica e administrativa"
+            tom: "formal"
+            publico_alvo: "analistas de fomento"
+          estrutura:
+            tamanho_campo:
+              minimo: "2 membros"
+              máximo: "10 membros"
+            elementos_de_formatação:
+              tipo_do_elemento: "Lista com subtópicos"
+              detalhes: "Cada membro com os 6 campos obrigatórios: nome, vínculo, função, formação, instituição, atividades"
+        instrucoes_ia:
+          instrucao_1: "Verifique se há vínculo formal e se a equipe está compatível com a complexidade do projeto."
+        template: |
+          - Nome: [Nome completo]
+            Vínculo: [CLT/Sócio/ICTPR]
+            Formação: [Formação Acadêmica]
+            Instituição: [Empresa/ICT]
+            Função: [Função no Projeto]
+            Atividades: [Descrição das atividades que irá desempenhar]
+        exemplos:
+          - "Nome: João da Silva\n  Vínculo: CLT\n  Formação: Engenharia de Software\n  Instituição: TechSoft Ltda\n  Função: Desenvolvedor Backend\n  Atividades: Desenvolvimento de APIs REST, integração com banco de dados, testes automatizados."
+          - "Nome: Ana Souza\n  Vínculo: Sócia\n  Formação: Administração\n  Instituição: AgroCert Tecnologia\n  Função: Coordenadora de Projeto\n  Atividades: Planejamento estratégico, interface com stakeholders, acompanhamento de metas."

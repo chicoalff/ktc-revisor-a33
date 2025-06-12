@@ -1,0 +1,212 @@
+metadata:
+  versao: "1.0"
+  arquivo: “ktc-bloco-1-instrucoes.yml"
+  descricao_arquivo: "definições, instruções, características, critérios, exemplos e instruções que deverão ser utilizadas pelo modelo de inteligência artificial na interpretação, avaliação, identificação de erros, não conformidades e possíveis conflitos nas informações dos Campos do bloco 1 do plano de trabalho do tecnova. Também contém instruções detalhadas e exemplos de como deve ser feita a revisão, sugestão de melhorias e reescrita do conteúdo dos Campos conforme as sugestões propostas respeitando todos os critérios de cada Campo individualmente"
+  autor: "Chico Alff"
+  data_ultima_edicao:  “ "datetime da alteração "
+  nome_do_bloco_detalhado: "1 - Dados Cadastrais“
+
+blocos:
+  - nome_do_bloco: "1 - Dados Cadastrais"
+    campos:
+      empresa_proponente:
+        id: "1.1"
+        descricao: "Nome da empresa proponente conforme CNPJ. Deve corresponder ao CNPJ informado no plano de trabalho."
+        avaliacao_e_revisao:
+          criterio_1: "Verificar se o CNPJ extraído do documento corresponde ao nome da empresa."
+          criterio_2: "Confrontar o CNPJ com o plano de trabalho para consistência."
+          criterio_3: "Caso esteja correto, não solicite confirmação para analisar o próximo campo."
+          criterio_4: "Informar no chat se houver divergência entre CNPJ e nome."
+          criterio_5: "Solicitar esclarecimento ou correção do usuário."
+          criterio_6: "Quando sugerir ajustes, manter linguagem técnica e objetiva, alinhada ao edital."
+        formato_e_caracteristicas:
+          tipo_do_campo: "descritivo"
+          estilo_e_linguagem:
+            linguagem: "formal"
+            tom: "jurídico-administrativo"
+            publico_alvo: "especialistas, gestores"
+          estrutura:
+            tamanho_campo:
+              minimo: "19"
+              máximo: "48"
+            elementos_de_formatação:
+              tipo_do_elemento: "Texto curto"
+              detalhes: "Nome empresarial completo, formal, sem abreviações. Escrita capitalizada. Redação objetiva. Estilo institucional."
+        instrucoes_ia:
+          instrucao_1: "Ao processar, avaliar ou revisar o campo 'empresa_proponente', busque informações em toda a base de conhecimento disponível para verificar a conformidade com o CNPJ informado."
+          instrucao_2: "Ao iniciar a revisão do campo, exiba no chat o conteúdo INTEGRAL contido no campo. Em seguida, realize a análise e avaliação da informação e exiba uma lista com os problemas, sugestões de melhoria, correções necessárias, etc."
+          instrucao_3: "Caso a informação do campo não cumpra os critérios de avaliação e revisão, solicite ao usuário para fornecer mais informações, ou peça permissão para buscar na internet."
+          instrucao_4: "Após avaliar a qualidade do campo, pergunte ao usuário se deseja que o chatbot melhore/aplique as melhorias sugeridas, ou se deseja que o campo seja excluído do plano de trabalho. Caso confirme, aplique as melhorias sugeridas respeitando todas as definições e características previstas para o campo e exiba a resposta completa para o usuário."
+        template: "Empresa: [Nome da Empresa]"
+        exemplos:
+          - "Empresa: ABC SOLUÇÕES TECNOLÓGICAS LTDA"
+          - "Empresa: INDÚSTRIA DE SOFTWARE INOVADOR S.A."
+          - "Empresa: CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA"
+
+      caixa_postal:
+        id: "1.2"
+        descricao: "Número da caixa postal ou CEP da empresa."
+        avaliacao_e_revisao:
+          criterio_1: "Confirmar preenchimento com número válido de CEP ou caixa postal."
+          criterio_2: "Caso esteja correto, não solicite confirmação para analisar o próximo campo."
+          criterio_3: "Caso não possua, inserir a expressão “não possui”."
+          criterio_4: "Quando sugerir ajustes, manter linguagem técnica e objetiva, alinhada ao edital."
+        formato_e_caracteristicas:
+          tipo_do_campo: "numérico ou string curta"
+          estilo_e_linguagem:
+            linguagem: "técnica"
+            tom: "direto"
+            publico_alvo: "especialistas"
+          estrutura:
+            tamanho_campo:
+              minimo: "10"
+              máximo: "12"
+            elementos_de_formatação:
+              tipo_do_elemento: "Número ou string curta"
+              detalhes: "CEP ou CP. Linguagem técnica postal. Redação direta, sem explicações."
+        instrucoes_ia:
+          instrucao_1: "Ao processar, avaliar ou revisar o campo 'caixa_postal', verifique se o valor é um CEP ou caixa postal válido ou se contém 'não possui'."
+          instrucao_2: "Ao iniciar a revisão do campo, exiba no chat o conteúdo INTEGRAL contido no campo. Em seguida, realize a análise e avaliação da informação e exiba uma lista com os problemas, sugestões de melhoria, correções necessárias, etc."
+          instrucao_3: "Caso a informação do campo não cumpra os critérios de avaliação e revisão, solicite ao usuário para fornecer mais informações, ou peça permissão para buscar na internet."
+          instrucao_4: "Após avaliar a qualidade do campo, pergunte ao usuário se deseja que o chatbot melhore/aplique as melhorias sugeridas, ou se deseja que o campo seja excluído do plano de trabalho. Caso confirme, aplique as melhorias sugeridas respeitando todas as definições e características previstas para o campo e exiba a resposta completa para o usuário."
+        template: "Caixa Postal: [Número do CEP ou 'não possui']"
+        exemplos:
+          - "Caixa Postal: 12345-678"
+          - "Caixa Postal: não possui"
+          - "Caixa Postal: 98765-432"
+
+      receita_anual:
+        id: "1.3"
+        descricao: "Receita anual com base no Demonstrativo de Resultados do Exercício (DRE) de 2024."
+        avaliacao_e_revisao:
+          criterio_1: "Verificar informação de receita anual e ano-base (2024)."
+          criterio_2: "Caso esteja correto, não solicite confirmação para analisar o próximo campo."
+          criterio_3: "Solicitar ao usuário o envio do arquivo de DRE de 2024 para validação documental."
+          criterio_4: "Quando sugerir ajustes, manter linguagem técnica e objetiva, alinhada ao edital."
+        formato_e_caracteristicas:
+          tipo_do_campo: "numérico"
+          estilo_e_linguagem:
+            linguagem: "formal"
+            tom: "econômico-financeiro"
+            publico_alvo: "especialistas, gestores"
+          estrutura:
+            tamanho_campo:
+              minimo: "11"
+              máximo: "15"
+            elementos_de_formatação:
+              tipo_do_elemento: "Texto numérico"
+              detalhes: "Pode incluir faixa, ponto decimal, 'R$'. Redação direta, cifras ou categorias."
+        instrucoes_ia:
+          instrucao_1: "Ao processar, avaliar ou revisar o campo 'receita_anual', verifique a presença da receita anual e se o ano base é 2024."
+          instrucao_2: "Ao iniciar a revisão do campo, exiba no chat o conteúdo INTEGRAL contido no campo. Em seguida, realize a análise e avaliação da informação e exiba uma lista com os problemas, sugestões de melhoria, correções necessárias, etc."
+          instrucao_3: "Caso a informação do campo não cumpra os critérios de avaliação e revisão, solicite ao usuário para fornecer mais informações (como o DRE de 2024), ou peça permissão para buscar na internet."
+          instrucao_4: "Após avaliar a qualidade do campo, pergunte ao usuário se deseja que o chatbot melhore/aplique as melhorias sugeridas, ou se deseja que o campo seja excluído do plano de trabalho. Caso confirme, aplique as melhorias sugeridas respeitando todas as definições e características previstas para o campo e exiba a resposta completa para o usuário."
+        template: "Receita Anual (DRE 2024): R$ [Valor numérico com ou sem decimais]"
+        exemplos:
+          - "Receita Anual (DRE 2024): R$ 1.250.000,00"
+          - "Receita Anual (DRE 2024): R$ 500.000"
+          - "Receita Anual (DRE 2024): R$ 78.000,00"
+
+      natureza_juridica:
+        id: "1.4"
+        descricao: "Descrição completa da natureza jurídica conforme Cartão CNPJ da Receita Federal."
+        avaliacao_e_revisao:
+          criterio_1: "Consultar o CNPJ em https://cnpja.com/office/(cnpj da empresa sem . / ou -), exemplo: https://cnpja.com/office/55064698000109."
+          criterio_2: "Caso não seja possível obter na opção acima, tentar: https://solucoes.receita.fazenda.gov.br/Servicos/cnpjreva/cnpjreva_solicitacao.asp."
+          criterio_3: "Caso também não funcione, solicitar ao usuário o Cartão CNPJ."
+          criterio_4: "Validar termo exato (ex: Sociedade Limitada, Inova Simples)."
+          criterio_5: "Inserir descrição detalhada conforme Cartão CNPJ."
+          criterio_6: "Opcional: solicitar envio do Cartão CNPJ original."
+          criterio_7: "Quando sugerir ajustes, manter linguagem técnica e objetiva, alinhada ao edital."
+        formato_e_caracteristicas:
+          tipo_do_campo: "descritivo"
+          estilo_e_linguagem:
+            linguagem: "técnica"
+            tom: "jurídico"
+            publico_alvo: "especialistas"
+          estrutura:
+            tamanho_campo:
+              minimo: "28"
+              máximo: "35"
+            elementos_de_formatação:
+              tipo_do_elemento: "Texto técnico curto"
+              detalhes: "Descrição conforme Receita Federal, podendo incluir códigos. Redação padrão legal."
+        instrucoes_ia:
+          instrucao_1: "Ao processar, avaliar ou revisar o campo 'natureza_juridica', utilize as URLs fornecidas ou solicite o Cartão CNPJ para validação."
+          instrucao_2: "Ao iniciar a revisão do campo, exiba no chat o conteúdo INTEGRAL contido no campo. Em seguida, realize a análise e avaliação da informação e exiba uma lista com os problemas, sugestões de melhoria, correções necessárias, etc."
+          instrucao_3: "Caso a informação do campo não cumpra os critérios de avaliação e revisão, solicite ao usuário para fornecer mais informações ou peça permissão para buscar na internet."
+          instrucao_4: "Após avaliar a qualidade do campo, pergunte ao usuário se deseja que o chatbot melhore/aplique as melhorias sugeridas, ou se deseja que o campo seja excluído do plano de trabalho. Caso confirme, aplique as melhorias sugeridas respeitando todas as definições e características previstas para o campo e exiba a resposta completa para o usuário."
+        template: "Natureza Jurídica: [Descrição completa da natureza jurídica]"
+        exemplos:
+          - "Natureza Jurídica: Sociedade Empresária Limitada"
+          - "Natureza Jurídica: Empresa Individual de Responsabilidade Limitada (de Natureza Empresária)"
+          - "Natureza Jurídica: Sociedade Simples Pura"
+
+      atividade_economica_predominante:
+        id: "1.5"
+        descricao: "Atividade econômica principal informada no Cartão CNPJ (CNAE)."
+        avaliacao_e_revisao:
+          criterio_1: "Consultar o CNPJ em https://cnpja.com/office/(cnpj da empresa sem . / ou -), exemplo: https://cnpja.com/office/55064698000109."
+          criterio_2: "Caso não seja possível obter na opção acima, tentar: https://solucoes.receita.fazenda.gov.br/Servicos/cnpjreva/cnpjreva_solicitacao.asp."
+          criterio_3: "Caso também não funcione, solicitar ao usuário o Cartão CNPJ."
+          criterio_4: "Extrair o CNAE principal do Cartão CNPJ."
+          criterio_5: "Confirmar formato: “(Código) – Descrição”."
+          criterio_6: "Solicitar ajuste para formato correto."
+          criterio_7: "Quando sugerir ajustes, manter linguagem técnica e objetiva, alinhada ao edital."
+        formato_e_caracteristicas:
+          tipo_do_campo: "texto corrido técnico"
+          estilo_e_linguagem:
+            linguagem: "formal"
+            tom: "técnico"
+            publico_alvo: "especialistas"
+          estrutura:
+            tamanho_campo:
+              minimo: "84"
+              máximo: "176"
+            elementos_de_formatação:
+              tipo_do_elemento: "Texto corrido"
+              detalhes: "Contém código CNAE + descrição. Linguagem técnica econômica."
+        instrucoes_ia:
+          instrucao_1: "Ao processar, avaliar ou revisar o campo 'atividade_economica_predominante', utilize as URLs fornecidas ou solicite o Cartão CNPJ para extrair o CNAE principal."
+          instrucao_2: "Ao iniciar a revisão do campo, exiba no chat o conteúdo INTEGRAL contido no campo. Em seguida, realize a análise e avaliação da informação e exiba uma lista com os problemas, sugestões de melhoria, correções necessárias, etc."
+          instrucao_3: "Caso a informação do campo não cumpra os critérios de avaliação e revisão (especialmente o formato), solicite ao usuário para fornecer mais informações ou peça permissão para buscar na internet."
+          instrucao_4: "Após avaliar a qualidade do campo, pergunte ao usuário se deseja que o chatbot melhore/aplique as melhorias sugeridas, ou se deseja que o campo seja excluído do plano de trabalho. Caso confirme, aplique as melhorias sugeridas respeitando todas as definições e características previstas para o campo e exiba a resposta completa para o usuário."
+        template: "CNAE: (Código) – Descrição da Atividade"
+        exemplos:
+          - "CNAE: 6399-2/00 – Outras atividades de prestação de serviços de informação não especificadas anteriormente"
+          - "CNAE: 10.82-1/00 – Fabricação de produtos à base de café"
+          - "CNAE: 6202-3/00 – Desenvolvimento e licenciamento de programas de computador customizáveis"
+
+      coordenador_tecnico:
+        id: "1.6"
+        descricao: "Nome do coordenador técnico do projeto."
+        avaliacao_e_revisao:
+          criterio_1: "Verificar se o nome do coordenador técnico está presente."
+          criterio_2: "Confirmar se o coordenador técnico possui vínculo formal (sócio ou empregado CLT) e qualificação compatível com a execução do projeto, conforme edital."
+          criterio_3: "Caso esteja correto, não solicite confirmação para analisar o próximo campo."
+          criterio_4: "Solicitar esclarecimentos sobre o vínculo formal e qualificação do coordenador técnico, se necessário."
+          criterio_5: "Alertar sobre a impossibilidade de alteração do coordenador técnico após a criação da conta no sistema de submissão."
+          criterio_6: "Quando sugerir ajustes, manter linguagem técnica e objetiva, alinhada ao edital."
+        formato_e_caracteristicas:
+          tipo_do_campo: "descritivo"
+          estilo_e_linguagem:
+            linguagem: "formal"
+            tom: "neutro"
+            publico_alvo: "especialistas, gestores"
+          estrutura:
+            tamanho_campo:
+              minimo: "Não se aplica"
+              máximo: "Não se aplica"
+            elementos_de_formatação:
+              tipo_do_elemento: "Texto curto"
+              detalhes: "Nome completo do coordenador. Vínculo formal (sócio ou empregado CLT) e qualificação compatível."
+        instrucoes_ia:
+          instrucao_1: "Ao processar, avaliar ou revisar o campo 'coordenador_tecnico', verifique a presença do nome e o atendimento aos requisitos de vínculo formal e qualificação."
+          instrucao_2: "Ao iniciar a revisão do campo, exiba no chat o conteúdo INTEGRAL contido no campo. Em seguida, realize a análise e avaliação da informação e exiba uma lista com os problemas, sugestões de melhoria, correções necessárias, etc."
+          instrucao_3: "Caso a informação do campo não cumpra os critérios de avaliação e revisão, solicite ao usuário para fornecer mais informações sobre o vínculo e qualificação."
+          instrucao_4: "Após avaliar a qualidade do campo, pergunte ao usuário se deseja que o chatbot melhore/aplique as melhorias sugeridas, ou se deseja que o campo seja excluído do plano de trabalho. Caso confirme, aplique as melhorias sugeridas respeitando todas as definições e características previstas para o campo e exiba a resposta completa para o usuário."
+        template: "Coordenador Técnico: [Nome Completo do Coordenador]"
+        exemplos:
+          - "Coordenador Técnico: Dr. João Pedro da Silva"
+          - "Coordenador Técnico: Engª. Maria Clara Souza"
+          - "Coordenador Técnico: Prof. Carlos Alberto Oliveira"

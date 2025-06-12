@@ -1,0 +1,87 @@
+metadata:
+  versao: "1.0"
+  arquivo: "ktc-bloco-3-instrucoes.yml"
+  descricao_arquivo: "Arquivo de instruções detalhadas para preenchimento e revisão dos campos do Bloco 3 - Grau de Inovação e Complexidade Técnica, conforme o edital Tecnova III - PR."
+  autor: "Chico Alff"
+  data_ultima_edicao: "2025-06-11 17:20:00"
+  nome_do_bloco_detalhado: "3 - Grau de Inovação e Complexidade Técnica"
+
+blocos:
+  - nome_do_bloco: "3 - Grau de Inovação e Complexidade Técnica"
+    campos:
+      grau_de_inovacao:
+        id: "3.1"
+        descricao: "Descrever as características inovadoras do projeto e seu impacto no mercado."
+        avaliacao_e_revisao:
+          criterio_1: "Identificar tipo de inovação (incremental, radical, disruptiva)."
+          criterio_2: "Relacionar com fundamentação legal (Lei de Inovação) ou conceitual (Manual de Oslo)."
+        formato_e_caracteristicas:
+          tipo_do_campo: "texto corrido"
+          estilo_e_linguagem:
+            linguagem: "técnica"
+            tom: "analítico e fundamentado"
+            publico_alvo: "avaliadores de inovação"
+          estrutura:
+            tamanho_campo:
+              minimo: "1000"
+              máximo: "16000"
+            elementos_de_formatação:
+              tipo_do_elemento: "Texto analítico"
+              detalhes: "Pode conter citações normativas e bibliográficas"
+        instrucoes_ia:
+          instrucao_1: "Verifique se a inovação é bem caracterizada, com base conceitual e contextual."
+        template: "[Descrição da inovação e seu grau, com justificativas]"
+        exemplos:
+          - "O projeto introduz uma inovação radical ao implementar um sistema inédito de certificação rural baseado em IA, inexistente no mercado nacional."
+
+      complexidade_tecnologica:
+        id: "3.2"
+        descricao: "Descrever o nível de complexidade técnica envolvido na proposta."
+        avaliacao_e_revisao:
+          criterio_1: "Explicitar arquiteturas, algoritmos, tecnologias."
+          criterio_2: "Apontar riscos técnicos e estratégias de mitigação."
+        formato_e_caracteristicas:
+          tipo_do_campo: "texto técnico"
+          estilo_e_linguagem:
+            linguagem: "tecnológica e estruturada"
+            tom: "profissional"
+            publico_alvo: "analistas técnicos"
+          estrutura:
+            tamanho_campo:
+              minimo: "1000"
+              máximo: "16000"
+            elementos_de_formatação:
+              tipo_do_elemento: "Texto corrido técnico"
+              detalhes: "Organizado por tópicos ou parágrafos lógicos"
+        instrucoes_ia:
+          instrucao_1: "Certifique-se de que os detalhes técnicos são compreensíveis e cobrem riscos e soluções."
+        template: "[Texto técnico com descrição detalhada da complexidade envolvida]"
+        exemplos:
+          - "A solução integra aprendizado de máquina com bancos de dados georreferenciados, exigindo sincronização em tempo real e alta tolerância a falhas."
+
+      estagio_de_desenvolvimento:
+        id: "3.3"
+        descricao: "Explicar o estágio atual e desejado do projeto, conforme TRL."
+        avaliacao_e_revisao:
+          criterio_1: "Classificar TRL atual e esperado."
+          criterio_2: "Incluir evidências técnicas e planejamento de PI."
+        formato_e_caracteristicas:
+          tipo_do_campo: "análise técnica"
+          estilo_e_linguagem:
+            linguagem: "formal técnica"
+            tom: "estratégico"
+            publico_alvo: "agentes de fomento"
+          estrutura:
+            tamanho_campo:
+              minimo: "1000"
+              máximo: "16000"
+            elementos_de_formatação:
+              tipo_do_elemento: "Texto técnico estruturado"
+              detalhes: "Pode conter tabelas, marcos de TRL, planos de PI"
+        instrucoes_ia:
+          instrucao_1: "Verifique se há consistência entre o TRL atual e o que se pretende alcançar, bem como alinhamento com as etapas do projeto."
+        template: "[Análise do estágio atual, plano de evolução tecnológica e estrutura de proteção intelectual]"
+        exemplos:
+          - "Atualmente no TRL 4, o sistema já foi testado em ambiente laboratorial. Até o final do projeto, espera-se atingir TRL 7 com validação em campo e protocolo de patente submetido."
+
+O arquivo YAML contendo todos os campos detalhados do **Bloco 3 – Grau de Inovação e Complexidade Técnica** foi criado com sucesso sob o nome **`ktc-revisor-instrucoes-bloco-3.yml`**. Ele já está disponível no Canvas com o título **Ktc-bloco-3-detalhado**, estruturado conforme o padrão oficial do projeto KTC Revisor Tecnova.
