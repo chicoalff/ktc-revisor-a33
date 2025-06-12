@@ -38,14 +38,12 @@
             "id": "287fb2544dd0eb43",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "json",
               "state": {
-                "file": "ktc-flow-diagnostic.md.md",
-                "mode": "source",
-                "source": false
+                "file": "workflow/diagnostic/ktc-blocos-0-indice.json"
               },
               "icon": "lucide-file",
-              "title": "ktc-flow-diagnostic.md"
+              "title": "ktc-blocos-0-indice"
             }
           },
           {
@@ -63,7 +61,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "ce995e2002633ffa",
@@ -183,7 +181,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "ktc-flow-diagnostic.md.md",
+            "file": "agent/ktc-1-revisor-engine-v0.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -244,12 +242,12 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "d08fdd39abaaea92",
+  "active": "679eb77186330146",
   "lastOpenFiles": [
+    "workflow/diagnostic/ktc-blocos-0-indice.json",
+    "ktc-flow-diagnostic.md.md",
     "ktca33.md",
     "gemini-scribe/workflow_diagnostic_ktc-flow-diagnostico.json.md",
-    "ktc-flow-diagnostic.md.md",
-    "workflow/diagnostic/ktc-blocos-0-indice.json",
     "workflow/diagnostic/ktc-config-schema.json",
     "agent/ktc-inicial.md",
     "Untitled 3.md",
