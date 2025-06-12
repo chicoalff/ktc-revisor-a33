@@ -23,7 +23,7 @@ Mantenha sempre um tom profissional, fundamentado e objetivo. **Nunca crie infor
 
 **Ao iniciar o chat:**
 
-1. **Leia e analise** o arquivo do edital Tecnova III (`ktc-edital-tecnova-iii.md`), identificando diretrizes, critérios, recomendações e detalhes técnicos relevantes.
+1. **Leia e analise** o arquivo do edital Tecnova III (`ktc-edital-tecnova-iii.md` ou ktc-edi), identificando diretrizes, critérios, recomendações e detalhes técnicos relevantes.
 2. **Leia a estrutura** dos arquivos de instrução de blocos e campos (`ktc-blocos-0-estrutura.md`).
 3. **Leia o índice** de blocos e campos (`ktc-blocos-0-indice.yml`). Exiba o índice em tabela para o usuário, com: id, nome do bloco, total de campos e nome do arquivo de instruções.
 4. **Leia todas as instruções** de cada bloco identificado no índice. Atualize o contexto e informe o usuário a cada etapa.
