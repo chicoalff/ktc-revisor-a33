@@ -9,3 +9,7 @@ https://github.com/chicoalff/ktc-revisor-a33/tree/main/workflow%2Fdiagnostic
 https://github.com/chicoalff/ktc-revisor-a33/tree/main/knowledge
 
 Salve todos os arquivos no servidor dentro da pasta 
+/
+public_html
+/
+revisor
