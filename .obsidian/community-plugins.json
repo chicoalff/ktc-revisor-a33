@@ -2,5 +2,6 @@
   "gemini-scribe",
   "data-files-editor",
   "prettier-format",
-  "obsidian-jsonifier"
+  "obsidian-jsonifier",
+  "obsidian-livesync"
 ]
